@@ -7,7 +7,7 @@ package:
   name: {{ pkgname }}
   version: {{ pkgver }}
 source:
-  - url: https://svwh.dl.sourceforge.net/project/mcmc-jags/JAGS/4.x/Source/JAGS-{{ pkgver }}.tar.gz
+  - url: https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Source/JAGS-{{ pkgver }}.tar.gz
     sha256: 8ac5dd57982bfd7d5f0ee384499d62f3e0bb35b5f1660feb368545f1186371fc
     folder: {{ _realname }}-{{ pkgver }}
   - path: ./PKGBUILD
