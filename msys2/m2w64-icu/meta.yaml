@@ -34,6 +34,7 @@ requirements:
     - m2-autoconf
     - m2-automake-wrapper
     - m2-make
+    - m2-grep
     - m2w64-toolchain
   run:
     - msys2-conda-epoch >=20160418
