@@ -1,11 +1,13 @@
 package:
   name: posix
-  version: 1.0.0
+  version: 2.0.0
 build:
-  number: 2
+  number: 0
+  noarch: generic
 requirements:
+  host:
+  - m2-conda-epoch
   run:
-  - msys2-conda-epoch >=20160418
   - m2-base
   - m2-make
   - m2-tar
