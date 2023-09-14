@@ -1,0 +1,6 @@
+msys2_src_url:
+  - https://repo.msys2.org/msys/sources/
+msys2_pkg_url:
+  - https://repo.msys2.org/msys/x86_64/
+target_platform:
+  - win-64
