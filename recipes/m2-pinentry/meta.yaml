@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://gnupg.org/related_software/pinentry/
   license: GPL
-  summary: A collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+  summary: |
+    A collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
 
 extra:
   recipe-maintainers:

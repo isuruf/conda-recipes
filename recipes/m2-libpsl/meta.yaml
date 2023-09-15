@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://github.com/rockdaboot/libpsl
   license: MIT
-  summary: Public Suffix List library (runtime)
+  summary: |
+    Public Suffix List library (runtime)
 
 extra:
   recipe-maintainers:

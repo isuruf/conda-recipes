@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/URI
   license: PerlArtistic
-  summary: Uniform Resource Identifiers (absolute and relative)
+  summary: |
+    Uniform Resource Identifiers (absolute and relative)
 
 extra:
   recipe-maintainers:

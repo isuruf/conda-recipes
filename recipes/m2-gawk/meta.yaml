@@ -22,7 +22,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/gawk/
   license: GPL
-  summary: GNU version of awk
+  summary: |
+    GNU version of awk
 
 extra:
   recipe-maintainers:

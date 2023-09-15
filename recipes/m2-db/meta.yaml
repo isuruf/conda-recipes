@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
   license: custom
-  summary: The Berkeley DB embedded database system
+  summary: |
+    The Berkeley DB embedded database system
 
 extra:
   recipe-maintainers:

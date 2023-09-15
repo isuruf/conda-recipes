@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/diffutils
   license: GPL-3.0-or-later
-  summary: Utility programs used for creating patch files
+  summary: |
+    Utility programs used for creating patch files
 
 extra:
   recipe-maintainers:

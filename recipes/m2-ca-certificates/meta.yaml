@@ -24,7 +24,8 @@ requirements:
 about:
   home: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
   license: MPL
-  summary: Common CA certificates
+  summary: |
+    Common CA certificates
 
 extra:
   recipe-maintainers:

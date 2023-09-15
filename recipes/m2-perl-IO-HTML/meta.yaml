@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/IO-HTML
   license: PerlArtistic
-  summary: Open an HTML file with automatic charset detection
+  summary: |
+    Open an HTML file with automatic charset detection
 
 extra:
   recipe-maintainers:

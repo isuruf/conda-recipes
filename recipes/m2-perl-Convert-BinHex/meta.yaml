@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/Convert-BinHex
   license: PerlArtistic
-  summary: Perl module to extract data from Macintosh BinHex files
+  summary: |
+    Perl module to extract data from Macintosh BinHex files
 
 extra:
   recipe-maintainers:

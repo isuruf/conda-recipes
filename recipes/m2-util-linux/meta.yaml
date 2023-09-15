@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://www.kernel.org/pub/linux/utils/util-linux/
   license: GPL3
-  summary: Collection of basic system utilities
+  summary: |
+    Collection of basic system utilities
 
 extra:
   recipe-maintainers:

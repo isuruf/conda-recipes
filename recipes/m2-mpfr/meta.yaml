@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.mpfr.org/
   license: LGPL-3.0-or-later
-  summary: Multiple-precision floating-point library
+  summary: |
+    Multiple-precision floating-point library
 
 extra:
   recipe-maintainers:

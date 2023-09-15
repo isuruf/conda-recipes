@@ -23,7 +23,8 @@ requirements:
 about:
   home: https://www.openssh.com/portable.html
   license: custom:BSD
-  summary: Free version of the SSH connectivity tools
+  summary: |
+    Free version of the SSH connectivity tools
 
 extra:
   recipe-maintainers:

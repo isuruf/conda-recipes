@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://mintty.github.io
   license: GPL-3.0-or-later
-  summary: Terminal emulator with native Windows look and feel
+  summary: |
+    Terminal emulator with native Windows look and feel
 
 extra:
   recipe-maintainers:

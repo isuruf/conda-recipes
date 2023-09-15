@@ -22,7 +22,8 @@ requirements:
 about:
   home: https://github.com/msys2/MSYS2-packages/tree/master/filesystem
   license: BSD-3-Clause
-  summary: Base filesystem
+  summary: |
+    Base filesystem
 
 extra:
   recipe-maintainers:

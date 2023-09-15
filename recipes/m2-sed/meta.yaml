@@ -20,7 +20,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/sed
   license: GPL3
-  summary: GNU stream editor
+  summary: |
+    GNU stream editor
 
 extra:
   recipe-maintainers:

@@ -23,7 +23,8 @@ requirements:
 about:
   home: https://www.darwinsys.com/file/
   license: custom
-  summary: File type identification utility
+  summary: |
+    File type identification utility
 
 extra:
   recipe-maintainers:

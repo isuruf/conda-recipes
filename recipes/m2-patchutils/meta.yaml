@@ -19,7 +19,8 @@ requirements:
 about:
   home: http://cyberelk.net/tim/software/patchutils/
   license: GPL
-  summary: Utilities to work with patches
+  summary: |
+    Utilities to work with patches
 
 extra:
   recipe-maintainers:

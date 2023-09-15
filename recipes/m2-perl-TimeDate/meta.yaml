@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/TimeDate
   license: PerlArtistic
-  summary: Date formating subroutines
+  summary: |
+    Date formating subroutines
 
 extra:
   recipe-maintainers:

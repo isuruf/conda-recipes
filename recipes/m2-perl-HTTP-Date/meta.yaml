@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/HTTP-Date
   license: PerlArtistic
-  summary: Date conversion routines
+  summary: |
+    Date conversion routines
 
 extra:
   recipe-maintainers:

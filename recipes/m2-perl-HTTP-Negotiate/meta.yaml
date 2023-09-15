@@ -20,7 +20,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/HTTP-Negotiate
   license: PerlArtistic
-  summary: choose a variant to serve
+  summary: |
+    choose a variant to serve
 
 extra:
   recipe-maintainers:

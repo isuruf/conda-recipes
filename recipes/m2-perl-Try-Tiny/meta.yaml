@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/Try-Tiny
   license: MIT
-  summary: Minimal try/catch with proper localization of $@
+  summary: |
+    Minimal try/catch with proper localization of $@
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: http://www.bzip.org
   license: custom
-  summary: A high-quality data compression program
+  summary: |
+    A high-quality data compression program
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.cygwin.com/
   license: GPL
-  summary: Posix emulation engine for Windows
+  summary: |
+    Posix emulation engine for Windows
 
 extra:
   recipe-maintainers:

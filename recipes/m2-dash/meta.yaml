@@ -21,7 +21,8 @@ requirements:
 about:
   home: http://gondor.apana.org.au/~herbert/dash/
   license: BSD
-  summary: A POSIX compliant shell that aims to be as small as possible
+  summary: |
+    A POSIX compliant shell that aims to be as small as possible
 
 extra:
   recipe-maintainers:

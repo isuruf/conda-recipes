@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/m4
   license: GPL3
-  summary: The GNU macro processor
+  summary: |
+    The GNU macro processor
 
 extra:
   recipe-maintainers:

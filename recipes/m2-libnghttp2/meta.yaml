@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://nghttp2.org/
   license: MIT
-  summary: Framing layer of HTTP/2 is implemented as a reusable C library (runtime)
+  summary: |
+    Framing layer of HTTP/2 is implemented as a reusable C library (runtime)
 
 extra:
   recipe-maintainers:

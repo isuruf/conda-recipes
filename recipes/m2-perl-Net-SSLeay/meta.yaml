@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/Net-SSLeay/
   license: custom:BSD
-  summary: Perl extension for using OpenSSL
+  summary: |
+    Perl extension for using OpenSSL
 
 extra:
   recipe-maintainers:

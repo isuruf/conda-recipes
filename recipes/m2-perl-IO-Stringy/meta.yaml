@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/IO-stringy
   license: GPL
-  summary: I/O on in-core objects like strings/arrays
+  summary: |
+    I/O on in-core objects like strings/arrays
 
 extra:
   recipe-maintainers:

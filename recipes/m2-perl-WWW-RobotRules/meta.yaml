@@ -20,7 +20,8 @@ requirements:
 about:
   home: https://metacpan.org/release/WWW-RobotRules
   license: PerlArtistic
-  summary: Database of robots.txt-derived permissions
+  summary: |
+    Database of robots.txt-derived permissions
 
 extra:
   recipe-maintainers:

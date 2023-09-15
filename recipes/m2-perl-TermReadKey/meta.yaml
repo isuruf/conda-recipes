@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/TermReadKey
   license: custom
-  summary: Provides simple control over terminal driver modes
+  summary: |
+    Provides simple control over terminal driver modes
 
 extra:
   recipe-maintainers:

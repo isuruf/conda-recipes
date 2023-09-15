@@ -32,7 +32,8 @@ requirements:
 about:
   home: https://git-scm.com/
   license: GPL2
-  summary: The fast distributed version control system
+  summary: |
+    The fast distributed version control system
 
 extra:
   recipe-maintainers:

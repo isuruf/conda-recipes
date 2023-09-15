@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://github.com/google/brotli
   license: MIT
-  summary: Brotli compression library
+  summary: |
+    Brotli compression library
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.sqlite.org/
   license: PublicDomain
-  summary: Sqlite3 library
+  summary: |
+    Sqlite3 library
 
 extra:
   recipe-maintainers:

@@ -20,7 +20,8 @@ requirements:
 about:
   home: http://www.greenwoodsoftware.com/less
   license: GPL3
-  summary: A terminal based program for viewing text files
+  summary: |
+    A terminal based program for viewing text files
 
 extra:
   recipe-maintainers:

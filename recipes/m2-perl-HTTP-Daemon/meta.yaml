@@ -23,7 +23,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/HTTP-Daemon
   license: Artistic-1.0-Perl
-  summary: A simple http server class
+  summary: |
+    A simple http server class
 
 extra:
   recipe-maintainers:

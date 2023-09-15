@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/coreutils
   license: GPL3
-  summary: The basic file, shell and text manipulation utilities of the GNU operating system
+  summary: |
+    The basic file, shell and text manipulation utilities of the GNU operating system
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://github.com/garu/Clone
   license: GPL
-  summary: Recursive copy of nested objects.
+  summary: |
+    Recursive copy of nested objects.
 
 extra:
   recipe-maintainers:

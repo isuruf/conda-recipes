@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://gmplib.org/
   license: LGPL3
-  summary: A free library for arbitrary precision arithmetic
+  summary: |
+    A free library for arbitrary precision arithmetic
 
 extra:
   recipe-maintainers:

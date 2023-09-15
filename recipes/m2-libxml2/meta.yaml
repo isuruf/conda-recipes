@@ -23,7 +23,8 @@ requirements:
 about:
   home: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/
   license: MIT
-  summary: XML parsing library, version 2
+  summary: |
+    XML parsing library, version 2
 
 extra:
   recipe-maintainers:

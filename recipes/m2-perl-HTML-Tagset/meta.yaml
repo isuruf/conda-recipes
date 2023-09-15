@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/dist/HTML-Tagset
   license: PerlArtistic
-  summary: Data tables useful in parsing HTML
+  summary: |
+    Data tables useful in parsing HTML
 
 extra:
   recipe-maintainers:

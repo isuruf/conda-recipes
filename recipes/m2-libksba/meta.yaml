@@ -20,7 +20,8 @@ requirements:
 about:
   home: https://www.gnupg.org/related_software/libksba/
   license: LGPL-3.0-or-later OR GPL-2.0-or-later
-  summary: A CMS and X.509 access library
+  summary: |
+    A CMS and X.509 access library
 
 extra:
   recipe-maintainers:

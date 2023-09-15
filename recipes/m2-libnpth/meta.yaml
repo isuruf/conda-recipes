@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://gnupg.org/
   license: LGPL
-  summary: New portable threads library
+  summary: |
+    New portable threads library
 
 extra:
   recipe-maintainers:

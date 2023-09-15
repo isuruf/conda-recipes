@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/libtasn1/
   license: GPL3
-  summary: A library for Abstract Syntax Notation One (ASN.1) and Distinguish Encoding Rules (DER) manipulation
+  summary: |
+    A library for Abstract Syntax Notation One (ASN.1) and Distinguish Encoding Rules (DER) manipulation
 
 extra:
   recipe-maintainers:

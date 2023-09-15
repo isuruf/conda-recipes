@@ -28,7 +28,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/wget/
   license: GPL3
-  summary: A network utility to retrieve files from the Web
+  summary: |
+    A network utility to retrieve files from the Web
 
 extra:
   recipe-maintainers:

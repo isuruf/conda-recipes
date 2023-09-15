@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/Net-HTTP
   license: PerlArtistic
-  summary: Low-level HTTP connection (client)
+  summary: |
+    Low-level HTTP connection (client)
 
 extra:
   recipe-maintainers:

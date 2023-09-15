@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://www.openssl.org
   license: Apache-2.0
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  summary: |
+    The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 
 extra:
   recipe-maintainers:

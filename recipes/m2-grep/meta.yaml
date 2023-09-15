@@ -22,7 +22,8 @@ requirements:
 about:
   home: https://www.gnu.org/software/grep/
   license: GPL3
-  summary: A string search utility
+  summary: |
+    A string search utility
 
 extra:
   recipe-maintainers:

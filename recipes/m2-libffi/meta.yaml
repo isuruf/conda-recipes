@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://sourceware.org/libffi/
   license: MIT
-  summary: Portable, high level programming interface to various calling conventions
+  summary: |
+    Portable, high level programming interface to various calling conventions
 
 extra:
   recipe-maintainers:

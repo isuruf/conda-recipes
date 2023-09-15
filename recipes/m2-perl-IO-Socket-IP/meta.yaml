@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://metacpan.org/release/IO-Socket-IP
   license: PerlArtistic
-  summary: Family-neutral IP socket supporting both IPv4 and IPv6
+  summary: |
+    Family-neutral IP socket supporting both IPv4 and IPv6
 
 extra:
   recipe-maintainers:

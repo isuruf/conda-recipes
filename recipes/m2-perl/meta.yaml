@@ -23,7 +23,8 @@ requirements:
 about:
   home: https://www.perl.org/
   license: GPL
-  summary: A highly capable, feature-rich programming language
+  summary: |
+    A highly capable, feature-rich programming language
 
 extra:
   recipe-maintainers:

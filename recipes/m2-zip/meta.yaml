@@ -19,7 +19,8 @@ requirements:
 about:
   home: http://www.info-zip.org/Zip.html
   license: BSD
-  summary: Creates PKZIP-compatible .zip files
+  summary: |
+    Creates PKZIP-compatible .zip files
 
 extra:
   recipe-maintainers:

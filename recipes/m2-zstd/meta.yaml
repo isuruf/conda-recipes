@@ -20,7 +20,8 @@ requirements:
 about:
   home: https://facebook.github.io/zstd/
   license: BSD
-  summary: Zstandard - Fast real-time compression algorithm
+  summary: |
+    Zstandard - Fast real-time compression algorithm
 
 extra:
   recipe-maintainers:

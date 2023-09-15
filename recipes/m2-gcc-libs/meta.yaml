@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://gcc.gnu.org/
   license: GPL
-  summary: Runtime libraries shipped by GCC
+  summary: |
+    Runtime libraries shipped by GCC
 
 extra:
   recipe-maintainers:

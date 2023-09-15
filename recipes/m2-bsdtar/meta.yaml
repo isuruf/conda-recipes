@@ -27,7 +27,8 @@ requirements:
 about:
   home: https://libarchive.org/
   license: BSD
-  summary: Multi-format archive and compression library
+  summary: |
+    Multi-format archive and compression library
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://github.com/PJK/libcbor
   license: MIT
-  summary: A C library for parsing and generating CBOR, a general-purpose schema-less binary data format
+  summary: |
+    A C library for parsing and generating CBOR, a general-purpose schema-less binary data format
 
 extra:
   recipe-maintainers:

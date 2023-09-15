@@ -21,7 +21,8 @@ requirements:
 about:
   home: https://metacpan.org/release/HTTP-Cookies
   license: PerlArtistic
-  summary: HTTP cookie jars
+  summary: |
+    HTTP cookie jars
 
 extra:
   recipe-maintainers:

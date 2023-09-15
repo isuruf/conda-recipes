@@ -19,7 +19,8 @@ requirements:
 about:
   home: 
   license: MIT
-  summary: Helper for launching MSYS2 shells
+  summary: |
+    Helper for launching MSYS2 shells
 
 extra:
   recipe-maintainers:

@@ -19,7 +19,8 @@ requirements:
 about:
   home: https://tiswww.case.edu/php/chet/readline/rltop.html
   license: GPL
-  summary: GNU readline library
+  summary: |
+    GNU readline library
 
 extra:
   recipe-maintainers:

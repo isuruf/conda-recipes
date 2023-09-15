@@ -22,7 +22,8 @@ requirements:
 about:
   home: https://www.nano-editor.org
   license: GPL-3.0-or-later
-  summary: Pico editor clone with enhancements
+  summary: |
+    Pico editor clone with enhancements
 
 extra:
   recipe-maintainers:
