@@ -1,6 +1,6 @@
 package:
   name: m2-msys2-keyring
-  version: 1~20230703.1
+  version: 1!20230703.1
 source:
   - url: {{ msys2_pkg_url }}/msys2-keyring-1~20230703-1-any.pkg.tar.zst
     sha256: 368f7b0a5434feadb512656134f4e721194c258b87b87f7139a15c1c5a51ad5c

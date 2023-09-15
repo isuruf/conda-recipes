@@ -71,7 +71,7 @@ for pkg, (depends, spdx, desc, url) in seen.items():
     meta = template
     info = {
         "name": pkg.lower(),
-        "version": ".".join(info.split("-")[:2] ),
+        "version": ".".join(info.split("-")[:2]).replace("~", "!"),
         "tarname": f"{pkg}-{info}",
         "depends": "\n".join(f"    - m2-{dep.lower()}" for dep in depends),
         "license": spdx,
