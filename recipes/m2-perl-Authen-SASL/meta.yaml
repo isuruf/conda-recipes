@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Authen-SASL
+  name: m2-perl-authen-sasl
   version: 2.16.3
 source:
   - url: {{ msys2_pkg_url }}/perl-Authen-SASL-2.16-3-any.pkg.tar.zst

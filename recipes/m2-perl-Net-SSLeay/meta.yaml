@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Net-SSLeay
+  name: m2-perl-net-ssleay
   version: 1.92.5
 source:
   - url: {{ msys2_pkg_url }}/perl-Net-SSLeay-1.92-5-x86_64.pkg.tar.zst

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-IO-Socket-SSL
+  name: m2-perl-io-socket-ssl
   version: 2.083.1
 source:
   - url: {{ msys2_pkg_url }}/perl-IO-Socket-SSL-2.083-1-any.pkg.tar.zst
@@ -14,9 +14,9 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl-Net-SSLeay
+    - m2-perl-net-ssleay
     - m2-perl
-    - m2-perl-URI
+    - m2-perl-uri
 
 about:
   home: https://metacpan.org/release/IO-Socket-SSL

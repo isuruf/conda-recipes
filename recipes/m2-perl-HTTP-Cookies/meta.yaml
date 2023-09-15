@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-HTTP-Cookies
+  name: m2-perl-http-cookies
   version: 6.10.2
 source:
   - url: {{ msys2_pkg_url }}/perl-HTTP-Cookies-6.10-2-any.pkg.tar.zst
@@ -15,8 +15,8 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-perl >=5.8.8
-    - m2-perl-HTTP-Date >=6
-    - m2-perl-HTTP-Message
+    - m2-perl-http-date >=6
+    - m2-perl-http-message
 
 about:
   home: https://metacpan.org/release/HTTP-Cookies

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-LWP-MediaTypes
+  name: m2-perl-lwp-mediatypes
   version: 6.04.1
 source:
   - url: {{ msys2_pkg_url }}/perl-LWP-MediaTypes-6.04-1-any.pkg.tar.zst

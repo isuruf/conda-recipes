@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-URI
+  name: m2-perl-uri
   version: 5.21.1
 source:
   - url: {{ msys2_pkg_url }}/perl-URI-5.21-1-any.pkg.tar.zst

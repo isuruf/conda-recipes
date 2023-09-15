@@ -21,13 +21,13 @@ requirements:
     - m2-nano
     - m2-openssh
     - m2-openssl
-    - m2-perl-Error
+    - m2-perl-error
     - m2-perl >=5.14.0
-    - m2-perl-Authen-SASL
+    - m2-perl-authen-sasl
     - m2-perl-libwww
-    - m2-perl-MIME-tools
-    - m2-perl-Net-SMTP-SSL
-    - m2-perl-TermReadKey
+    - m2-perl-mime-tools
+    - m2-perl-net-smtp-ssl
+    - m2-perl-termreadkey
 
 about:
   home: https://git-scm.com/

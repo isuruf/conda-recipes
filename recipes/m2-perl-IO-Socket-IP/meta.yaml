@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-IO-Socket-IP
+  name: m2-perl-io-socket-ip
   version: 0.41.2
 source:
   - url: {{ msys2_pkg_url }}/perl-IO-Socket-IP-0.41-2-any.pkg.tar.zst

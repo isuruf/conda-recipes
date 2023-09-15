@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Try-Tiny
+  name: m2-perl-try-tiny
   version: 0.31.1
 source:
   - url: {{ msys2_pkg_url }}/perl-Try-Tiny-0.31-1-any.pkg.tar.zst

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-MailTools
+  name: m2-perl-mailtools
   version: 2.21.1
 source:
   - url: {{ msys2_pkg_url }}/perl-MailTools-2.21-1-any.pkg.tar.xz
@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl-TimeDate
+    - m2-perl-timedate
 
 about:
   home: https://metacpan.org/release/MailTools

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-HTTP-Date
+  name: m2-perl-http-date
   version: 6.06.1
 source:
   - url: {{ msys2_pkg_url }}/perl-HTTP-Date-6.06-1-any.pkg.tar.zst

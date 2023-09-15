@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-IO-Stringy
+  name: m2-perl-io-stringy
   version: 2.113.1
 source:
   - url: {{ msys2_pkg_url }}/perl-IO-Stringy-2.113-1-any.pkg.tar.zst

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-MIME-tools
+  name: m2-perl-mime-tools
   version: 5.510.1
 source:
   - url: {{ msys2_pkg_url }}/perl-MIME-tools-5.510-1-any.pkg.tar.zst
@@ -14,9 +14,9 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl-MailTools
-    - m2-perl-IO-stringy
-    - m2-perl-Convert-BinHex
+    - m2-perl-mailtools
+    - m2-perl-io-stringy
+    - m2-perl-convert-binhex
 
 about:
   home: https://metacpan.org/release/MIME-tools

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-HTTP-Negotiate
+  name: m2-perl-http-negotiate
   version: 6.01.3
 source:
   - url: {{ msys2_pkg_url }}/perl-HTTP-Negotiate-6.01-3-any.pkg.tar.zst
@@ -15,7 +15,7 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-perl >=5.8.8
-    - m2-perl-HTTP-Message
+    - m2-perl-http-message
 
 about:
   home: https://metacpan.org/dist/HTTP-Negotiate

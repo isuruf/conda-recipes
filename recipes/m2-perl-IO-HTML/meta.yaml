@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-IO-HTML
+  name: m2-perl-io-html
   version: 1.004.2
 source:
   - url: {{ msys2_pkg_url }}/perl-IO-HTML-1.004-2-any.pkg.tar.zst

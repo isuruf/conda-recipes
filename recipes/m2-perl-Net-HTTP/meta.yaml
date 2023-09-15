@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Net-HTTP
+  name: m2-perl-net-http
   version: 6.23.1
 source:
   - url: {{ msys2_pkg_url }}/perl-Net-HTTP-6.23-1-any.pkg.tar.zst

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Convert-BinHex
+  name: m2-perl-convert-binhex
   version: 1.125.2
 source:
   - url: {{ msys2_pkg_url }}/perl-Convert-BinHex-1.125-2-any.pkg.tar.zst

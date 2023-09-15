@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Net-SMTP-SSL
+  name: m2-perl-net-smtp-ssl
   version: 1.04.2
 source:
   - url: {{ msys2_pkg_url }}/perl-Net-SMTP-SSL-1.04-2-any.pkg.tar.zst
@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl-IO-Socket-SSL
+    - m2-perl-io-socket-ssl
 
 about:
   home: https://metacpan.org/dist/Net-SMTP-SSL

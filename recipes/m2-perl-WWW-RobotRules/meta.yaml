@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-WWW-RobotRules
+  name: m2-perl-www-robotrules
   version: 6.02.2
 source:
   - url: {{ msys2_pkg_url }}/perl-WWW-RobotRules-6.02-2-any.pkg.tar.xz
@@ -15,7 +15,7 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-perl
-    - m2-perl-URI
+    - m2-perl-uri
 
 about:
   home: https://metacpan.org/release/WWW-RobotRules

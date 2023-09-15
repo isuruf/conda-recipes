@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-TermReadKey
+  name: m2-perl-termreadkey
   version: 2.38.5
 source:
   - url: {{ msys2_pkg_url }}/perl-TermReadKey-2.38-5-x86_64.pkg.tar.zst

@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Clone
+  name: m2-perl-clone
   version: 0.46.1
 source:
   - url: {{ msys2_pkg_url }}/perl-Clone-0.46-1-x86_64.pkg.tar.zst

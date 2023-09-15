@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-HTML-Tagset
+  name: m2-perl-html-tagset
   version: 3.20.3
 source:
   - url: {{ msys2_pkg_url }}/perl-HTML-Tagset-3.20-3-any.pkg.tar.zst

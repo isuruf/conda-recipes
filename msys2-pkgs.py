@@ -70,10 +70,10 @@ for pkg, (depends, spdx, desc, url) in seen.items():
     sha256 = subprocess.check_output(["sha256sum", f"cache/{pkg}-{info}"]).decode("utf-8").split(" ")[0]
     meta = template
     info = {
-        "name": pkg,
+        "name": pkg.lower(),
         "version": ".".join(info.split("-")[:2] ),
         "tarname": f"{pkg}-{info}",
-        "depends": "\n".join(f"    - m2-{dep}" for dep in depends),
+        "depends": "\n".join(f"    - m2-{dep.lower()}" for dep in depends),
         "license": spdx,
         "summary": desc,
         "url": url,

@@ -15,19 +15,19 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-perl
-    - m2-perl-Encode-Locale
-    - m2-perl-File-Listing
-    - m2-perl-HTML-Parser
-    - m2-perl-HTTP-Cookies
-    - m2-perl-HTTP-Daemon
-    - m2-perl-HTTP-Date
-    - m2-perl-HTTP-Negotiate
-    - m2-perl-LWP-MediaTypes
-    - m2-perl-Net-HTTP
-    - m2-perl-URI
-    - m2-perl-WWW-RobotRules
-    - m2-perl-HTTP-Message
-    - m2-perl-Try-Tiny
+    - m2-perl-encode-locale
+    - m2-perl-file-listing
+    - m2-perl-html-parser
+    - m2-perl-http-cookies
+    - m2-perl-http-daemon
+    - m2-perl-http-date
+    - m2-perl-http-negotiate
+    - m2-perl-lwp-mediatypes
+    - m2-perl-net-http
+    - m2-perl-uri
+    - m2-perl-www-robotrules
+    - m2-perl-http-message
+    - m2-perl-try-tiny
 
 about:
   home: https://metacpan.org/dist/libwww-perl

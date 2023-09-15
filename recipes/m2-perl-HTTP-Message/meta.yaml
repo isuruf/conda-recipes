@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-HTTP-Message
+  name: m2-perl-http-message
   version: 6.44.1
 source:
   - url: {{ msys2_pkg_url }}/perl-HTTP-Message-6.44-1-any.pkg.tar.zst
@@ -15,12 +15,12 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-perl >=5.8.8
-    - m2-perl-Clone
-    - m2-perl-Encode-Locale >=1
-    - m2-perl-IO-HTML
-    - m2-perl-HTTP-Date >=6
-    - m2-perl-LWP-MediaTypes >=6
-    - m2-perl-URI >=1.10
+    - m2-perl-clone
+    - m2-perl-encode-locale >=1
+    - m2-perl-io-html
+    - m2-perl-http-date >=6
+    - m2-perl-lwp-mediatypes >=6
+    - m2-perl-uri >=1.10
 
 about:
   home: https://metacpan.org/release/HTTP-Message

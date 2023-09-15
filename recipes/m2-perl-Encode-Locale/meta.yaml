@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-Encode-Locale
+  name: m2-perl-encode-locale
   version: 1.05.2
 source:
   - url: {{ msys2_pkg_url }}/perl-Encode-Locale-1.05-2-any.pkg.tar.zst

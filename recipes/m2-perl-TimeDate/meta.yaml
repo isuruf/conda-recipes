@@ -1,5 +1,5 @@
 package:
-  name: m2-perl-TimeDate
+  name: m2-perl-timedate
   version: 2.33.2
 source:
   - url: {{ msys2_pkg_url }}/perl-TimeDate-2.33-2-any.pkg.tar.zst
