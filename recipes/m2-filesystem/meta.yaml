@@ -4,6 +4,9 @@ package:
 source:
   - url: {{ msys2_pkg_url }}/filesystem-2023.02.07-1-x86_64.pkg.tar.zst
     sha256: 7ab6ed1bed694b51f6c54df0f315ea8dbbed7fb149af66740df4ef20f2449281
+    patches:
+      - 0001-Remove-etc-post-install-07-pacman-key-post.patch
+      - 0002-Use-Windows-users-temporary-directory-as-tmp.patch
     folder: binary
 
 build:
