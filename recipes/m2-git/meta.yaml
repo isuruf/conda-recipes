@@ -22,7 +22,7 @@ requirements:
     - m2-openssh
     - m2-openssl
     - m2-perl-Error
-    - m2-perl>=5.14.0
+    - m2-perl >=5.14.0
     - m2-perl-Authen-SASL
     - m2-perl-libwww
     - m2-perl-MIME-tools

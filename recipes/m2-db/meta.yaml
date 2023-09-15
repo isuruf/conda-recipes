@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-libdb=5.3.28
+    - m2-libdb =5.3.28
 
 about:
   home: https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html

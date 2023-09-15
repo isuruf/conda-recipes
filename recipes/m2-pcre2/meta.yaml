@@ -17,10 +17,10 @@ requirements:
     - m2-libreadline
     - m2-libbz2
     - m2-zlib
-    - m2-libpcre2_8=10.42
-    - m2-libpcre2_16=10.42
-    - m2-libpcre2_32=10.42
-    - m2-libpcre2posix=10.42
+    - m2-libpcre2_8 =10.42
+    - m2-libpcre2_16 =10.42
+    - m2-libpcre2_32 =10.42
+    - m2-libpcre2posix =10.42
 
 about:
   home: https://www.pcre.org/

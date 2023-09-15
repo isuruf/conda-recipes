@@ -14,8 +14,8 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl>=5.8.8
-    - m2-perl-HTTP-Date>=6
+    - m2-perl >=5.8.8
+    - m2-perl-HTTP-Date >=6
     - m2-perl-HTTP-Message
 
 about:

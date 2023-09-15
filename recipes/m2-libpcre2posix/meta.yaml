@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-libpcre2_8=10.42
+    - m2-libpcre2_8 =10.42
 
 about:
   home: https://www.pcre.org/

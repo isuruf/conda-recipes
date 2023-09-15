@@ -15,7 +15,7 @@ requirements:
     - m2-conda-epoch
   run:
     - m2-sh
-    - m2-libltdl=2.4.7
+    - m2-libltdl =2.4.7
     - m2-tar
 
 about:

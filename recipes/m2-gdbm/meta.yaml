@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-libgdbm=1.23
+    - m2-libgdbm =1.23
 
 about:
   home: https://www.gnu.org/software/gdbm/gdbm.html

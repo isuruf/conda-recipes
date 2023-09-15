@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-perl>=5.008
+    - m2-perl >=5.008
 
 about:
   home: https://metacpan.org/dist/Encode-Locale
