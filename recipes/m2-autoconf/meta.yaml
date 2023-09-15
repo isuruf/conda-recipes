@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-awk
+    - m2-gawk
     - m2-m4
     - m2-diffutils
     - m2-bash

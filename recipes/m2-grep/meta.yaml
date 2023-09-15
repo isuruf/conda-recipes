@@ -17,7 +17,7 @@ requirements:
     - m2-libiconv
     - m2-libintl
     - m2-libpcre
-    - m2-sh
+    - m2-bash
 
 about:
   home: https://www.gnu.org/software/grep/

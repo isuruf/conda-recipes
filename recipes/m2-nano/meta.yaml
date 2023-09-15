@@ -17,7 +17,7 @@ requirements:
     - m2-file
     - m2-libintl
     - m2-ncurses
-    - m2-sh
+    - m2-bash
 
 about:
   home: https://www.nano-editor.org

@@ -56,6 +56,8 @@ while to_process:
         dep = provides.get(dep, dep)
         if cond:
             depends[i] = f"{dep} {cond}"
+        else:
+            depends[i] = dep
         if dep not in seen:
             to_process.add(dep)
     seen[pkg] = depends, spdx, desc, url

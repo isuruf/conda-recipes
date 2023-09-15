@@ -18,7 +18,7 @@ requirements:
     - m2-gdbm
     - m2-libxcrypt
     - m2-coreutils
-    - m2-sh
+    - m2-bash
 
 about:
   home: https://www.perl.org/

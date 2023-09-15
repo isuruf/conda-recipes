@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-sh
+    - m2-bash
     - m2-mpfr
     - m2-libintl
     - m2-libreadline

@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-sh
+    - m2-bash
 
 about:
   home: https://savannah.gnu.org/projects/which/

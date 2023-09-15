@@ -21,7 +21,7 @@ requirements:
     - m2-libgpgme
     - m2-libpcre2_8
     - m2-libpsl
-    - m2-libuuid
+    - m2-libutil-linux
     - m2-libgnutls
     - m2-zlib
 
