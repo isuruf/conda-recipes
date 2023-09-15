@@ -2,11 +2,14 @@ package:
   name: m2-conda-epoch
   version: '20230914'
 build:
-  number: 0
-  string: 0_x86_64  # [win and (arm64 or x86_64)]
+  number: 1
+  string: 1_x86_64  # [win and (arm64 or x86_64)]
   skip: True        # [not win]
   run_exports:
-    - m2-conda-epoch {{ PKG_VERSION }} *_x86_64
+    weak:
+      - m2-conda-epoch {{ PKG_VERSION }} *_x86_64
+    noarch:
+      - m2-conda-epoch {{ PKG_VERSION }} *_x86_64
 requirements:
   run: []
   run_constrained:
