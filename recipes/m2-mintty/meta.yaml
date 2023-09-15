@@ -1,6 +1,6 @@
 package:
   name: m2-mintty
-  version: 1~3.6.5.1
+  version: 1!3.6.5.1
 source:
   - url: {{ msys2_pkg_url }}/mintty-1~3.6.5-1-x86_64.pkg.tar.zst
     sha256: 30dfce1f1a36100e495eccf2f0a85e24447b3527e304f087ee16f5a12ef6c73b
