@@ -1,0 +1,22 @@
+package:
+  name: m2-{{ name }}
+  version: {{ version }}
+source:
+  - url: {{ msys2_pkg_url }}/{{ tarname }}
+    sha256: {{ sha256 }}
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+{{ depends }}
+
+about:
+  home: {{ url }}
+  license: {{ license }}
+  summary: {{ summary }}
