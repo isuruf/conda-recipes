@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-    - m2-mintty >=1~2.2.1
+    - m2-mintty >=1!2.2.1
 
 about:
   home: 

@@ -55,7 +55,7 @@ while to_process:
         cond = full_dep[len(dep):]
         dep = provides.get(dep, dep)
         if cond:
-            depends[i] = f"{dep} {cond}"
+            depends[i] = f"{dep} {cond.replace('~', '!')}"
         else:
             depends[i] = dep
         if dep not in seen:
