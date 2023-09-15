@@ -19,7 +19,8 @@ requirements:
 about:
   home: {{ url }}
   license: {{ license }}
-  summary: {{ summary }}
+  summary: |
+    {{ summary }}
 
 extra:
   recipe-maintainers:
