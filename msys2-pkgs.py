@@ -50,9 +50,12 @@ def get_depends(pkg):
 while to_process:
     pkg = to_process.pop()
     depends, spdx, desc, url = get_depends(pkg)
-    for full_dep in depends:
+    for i, full_dep in enumerate(depends):
         dep = full_dep.split(">")[0].split("=")[0].split("<")[0]
+        cond = full_dep[len(dep):]
         dep = provides.get(dep, dep)
+        if cond:
+            depends[i] = f"{dep} {cond}"
         if dep not in seen:
             to_process.add(dep)
     seen[pkg] = depends, spdx, desc, url
