@@ -1,0 +1,146 @@
+texinfo 7.0.3-3-x86_64.pkg.tar.zst info perl sh
+diffutils 3.9-1-x86_64.pkg.tar.zst sh libiconv libintl
+automake-wrapper 20221207-1-any.pkg.tar.zst bash gawk automake1.11 automake1.12 automake1.13 automake1.14 automake1.15 automake1.16
+automake1.14 1.14.1-6-any.pkg.tar.zst perl bash
+unzip 6.0-2-x86_64.pkg.tar.xz libbz2 bash
+git 2.42.0-2-x86_64.pkg.tar.zst curl libpcre2_8 libexpat libintl nano openssh openssl perl-Error perl>=5.14.0 perl-Authen-SASL perl-libwww perl-MIME-tools perl-Net-SMTP-SSL perl-TermReadKey
+base 2022.06-1-any.pkg.tar.zst bash bash-completion bsdtar bzip2 coreutils curl dash file filesystem findutils gawk getent grep gzip inetutils info less mintty msys2-keyring msys2-launcher msys2-runtime nano rebase sed tar time tzcode util-linux wget which zstd
+openssl 3.1.2-1-x86_64.pkg.tar.zst libopenssl
+make 4.4.1-1-x86_64.pkg.tar.zst libintl sh
+tar 1.34-3-x86_64.pkg.tar.zst libiconv libintl sh
+perl-Net-SMTP-SSL 1.04-2-any.pkg.tar.zst perl-IO-Socket-SSL
+bash-completion 2.11-3-any.pkg.tar.zst bash
+findutils 4.9.0-3-x86_64.pkg.tar.zst libiconv libintl
+coreutils 8.32-5-x86_64.pkg.tar.zst gmp libiconv libintl
+mintty 1~3.6.5-1-x86_64.pkg.tar.zst sh
+wget 1.21.4-1-x86_64.pkg.tar.zst gcc-libs libiconv libidn2 libintl libgpgme libpcre2_8 libpsl libuuid libgnutls zlib
+libbz2 1.0.8-4-x86_64.pkg.tar.zst gcc-libs
+info 7.0.3-3-x86_64.pkg.tar.zst gzip libxcrypt libintl ncurses
+automake1.12 1.12.6-6-any.pkg.tar.zst perl bash
+msys2-launcher 1.5-1-x86_64.pkg.tar.zst mintty>=1~2.2.1
+sed 4.9-1-x86_64.pkg.tar.zst libintl sh
+automake1.15 1.15.1-4-any.pkg.tar.zst perl bash
+autoconf 2.71-3-any.pkg.tar.zst awk m4 diffutils bash perl sed
+zlib 1.3-1-x86_64.pkg.tar.zst gcc-libs
+perl-MIME-tools 5.510-1-any.pkg.tar.zst perl-MailTools perl-IO-stringy perl-Convert-BinHex
+bash 5.2.015-1-x86_64.pkg.tar.zst 
+perl 5.36.1-2-x86_64.pkg.tar.zst db gdbm libxcrypt coreutils sh
+libiconv 1.17-1-x86_64.pkg.tar.zst gcc-libs libintl
+libidn2 2.3.4-2-x86_64.pkg.tar.zst libunistring libintl
+perl-Authen-SASL 2.16-3-any.pkg.tar.zst perl
+patch 2.7.6-2-x86_64.pkg.tar.zst 
+db 5.3.28-4-x86_64.pkg.tar.zst libdb=5.3.28
+tzcode 2023c-1-x86_64.pkg.tar.zst coreutils gawk sed
+util-linux 2.35.2-4-x86_64.pkg.tar.zst coreutils libutil-linux libiconv
+libutil-linux 2.35.2-4-x86_64.pkg.tar.zst gcc-libs libintl
+perl-MailTools 2.21-1-any.pkg.tar.xz perl-TimeDate
+getent 2.18.90-4-x86_64.pkg.tar.zst libargp
+zip 3.0-3-x86_64.pkg.tar.xz libbz2
+libpcre2_8 10.42-1-x86_64.pkg.tar.zst gcc-libs
+m4 1.4.19-2-x86_64.pkg.tar.zst bash gcc-libs libiconv
+rebase 4.5.0-4-x86_64.pkg.tar.zst dash
+dash 0.5.12-1-x86_64.pkg.tar.zst grep sed filesystem
+filesystem 2023.02.07-1-x86_64.pkg.tar.zst 
+perl-IO-Stringy 2.113-1-any.pkg.tar.zst perl
+libxcrypt 4.4.36-1-x86_64.pkg.tar.zst 
+file 5.45-1-x86_64.pkg.tar.zst gcc-libs zlib libbz2 liblzma libzstd
+perl-Error 0.17029-1-any.pkg.tar.xz perl
+less 643-1-x86_64.pkg.tar.zst ncurses libpcre2_8
+gzip 1.13-1-x86_64.pkg.tar.zst bash less
+gdbm 1.23-1-x86_64.pkg.tar.zst libgdbm=1.23
+libgdbm 1.23-1-x86_64.pkg.tar.zst gcc-libs libreadline libiconv libintl ncurses
+gawk 5.2.2-1-x86_64.pkg.tar.zst sh mpfr libintl libreadline
+time 1.9-3-x86_64.pkg.tar.zst 
+bsdtar 3.7.2-1-x86_64.pkg.tar.zst gcc-libs libbz2 libiconv libexpat liblzma liblz4 libopenssl libzstd zlib
+bzip2 1.0.8-4-x86_64.pkg.tar.zst libbz2
+automake1.16 1.16.5-1-any.pkg.tar.zst perl bash
+automake1.11 1.11.6-6-any.pkg.tar.zst perl bash
+libdb 5.3.28-4-x86_64.pkg.tar.zst gcc-libs
+perl-TimeDate 2.33-2-any.pkg.tar.zst perl
+libzstd 1.5.5-1-x86_64.pkg.tar.zst gcc-libs
+libopenssl 3.1.2-1-x86_64.pkg.tar.zst 
+ncurses 6.4-1-x86_64.pkg.tar.zst gcc-libs
+curl 8.2.1-1-x86_64.pkg.tar.zst ca-certificates libcurl libunistring libnghttp2 libpsl openssl zlib
+gmp 6.3.0-1-x86_64.pkg.tar.zst 
+automake1.13 1.13.4-7-any.pkg.tar.zst perl bash
+libintl 0.22-1-x86_64.pkg.tar.zst gcc-libs libiconv
+grep 1~3.0-6-x86_64.pkg.tar.zst libiconv libintl libpcre sh
+patchutils 0.4.2-3-x86_64.pkg.tar.zst pcre2
+which 2.21-4-x86_64.pkg.tar.zst sh
+gcc-libs 11.3.0-4-x86_64.pkg.tar.zst 
+perl-Convert-BinHex 1.125-2-any.pkg.tar.zst perl
+libtool 2.4.7-3-x86_64.pkg.tar.zst sh libltdl=2.4.7 tar
+openssh 9.4p1-1-x86_64.pkg.tar.zst heimdal libedit libxcrypt libfido2 openssl
+perl-TermReadKey 2.38-5-x86_64.pkg.tar.zst perl
+ca-certificates 20230311-1-any.pkg.tar.zst bash openssl findutils coreutils sed p11-kit
+inetutils 2.4-2-x86_64.pkg.tar.zst gcc-libs libintl libreadline ncurses
+libcurl 8.2.1-1-x86_64.pkg.tar.zst brotli ca-certificates heimdal-libs libidn2 libunistring libnghttp2 libpsl libssh2 openssl zlib libzstd
+msys2-keyring 1~20230703-1-any.pkg.tar.zst 
+p7zip 17.05-1-x86_64.pkg.tar.zst gcc-libs bash
+nano 7.2-1-x86_64.pkg.tar.zst file libintl ncurses sh
+perl-IO-Socket-SSL 2.083-1-any.pkg.tar.zst perl-Net-SSLeay perl perl-URI
+msys2-runtime 3.4.9-1-x86_64.pkg.tar.zst 
+libgnutls 3.8.1-1-x86_64.pkg.tar.zst gcc-libs libidn2 libiconv libintl gmp libnettle libp11-kit libtasn1 zlib
+libunistring 1.1-2-x86_64.pkg.tar.zst libiconv
+libexpat 2.5.0-1-x86_64.pkg.tar.zst gcc-libs
+perl-URI 5.21-1-any.pkg.tar.zst perl>=5.10.0
+perl-libwww 6.67-1-any.pkg.tar.zst perl perl-Encode-Locale perl-File-Listing perl-HTML-Parser perl-HTTP-Cookies perl-HTTP-Daemon perl-HTTP-Date perl-HTTP-Negotiate perl-LWP-MediaTypes perl-Net-HTTP perl-URI perl-WWW-RobotRules perl-HTTP-Message perl-Try-Tiny
+zstd 1.5.5-1-x86_64.pkg.tar.zst gcc-libs libzstd
+libpsl 0.21.2-1-x86_64.pkg.tar.zst libxslt libidn2 libunistring
+libargp 20110921-4-x86_64.pkg.tar.zst 
+libreadline 8.2.001-3-x86_64.pkg.tar.zst ncurses
+libxslt 1.1.38-1-x86_64.pkg.tar.zst libxml2 libgcrypt
+libgpgme 1.22.0-1-x86_64.pkg.tar.zst libassuan libgpg-error gnupg
+libtasn1 4.19.0-1-x86_64.pkg.tar.zst info
+libgcrypt 1.9.4-1-x86_64.pkg.tar.zst libgpg-error
+perl-HTTP-Negotiate 6.01-3-any.pkg.tar.zst perl>=5.8.8 perl-HTTP-Message
+brotli 1.1.0-1-x86_64.pkg.tar.zst gcc-libs
+liblzma 5.4.4-1-x86_64.pkg.tar.zst sh libiconv gettext
+perl-HTTP-Date 6.06-1-any.pkg.tar.zst perl>=5.8.8
+libp11-kit 0.25.0-1-x86_64.pkg.tar.zst libffi libintl libtasn1
+perl-LWP-MediaTypes 6.04-1-any.pkg.tar.zst perl
+perl-Net-SSLeay 1.92-5-x86_64.pkg.tar.zst openssl
+libfido2 1.13.0-1-x86_64.pkg.tar.zst libcbor openssl
+perl-HTTP-Cookies 6.10-2-any.pkg.tar.zst perl>=5.8.8 perl-HTTP-Date>=6 perl-HTTP-Message
+perl-HTTP-Message 6.44-1-any.pkg.tar.zst perl>=5.8.8 perl-Clone perl-Encode-Locale>=1 perl-IO-HTML perl-HTTP-Date>=6 perl-LWP-MediaTypes>=6 perl-URI>=1.10
+libnghttp2 1.56.0-1-x86_64.pkg.tar.zst gcc-libs
+heimdal-libs 7.8.0-4-x86_64.pkg.tar.zst libdb libxcrypt libedit libsqlite libopenssl
+perl-HTTP-Daemon 6.16-1-any.pkg.tar.zst perl perl-HTTP-Date perl-HTTP-Message perl-IO-Socket-IP perl-LWP-MediaTypes
+liblz4 1.9.4-1-x86_64.pkg.tar.zst gcc-libs
+libedit 20221030_3.1-1-x86_64.pkg.tar.zst ncurses sh
+p11-kit 0.25.0-1-x86_64.pkg.tar.zst libp11-kit
+perl-Try-Tiny 0.31-1-any.pkg.tar.zst perl
+perl-IO-Socket-IP 0.41-2-any.pkg.tar.zst perl
+libxml2 2.9.14-5-x86_64.pkg.tar.zst coreutils liblzma libreadline ncurses zlib
+perl-WWW-RobotRules 6.02-2-any.pkg.tar.xz perl perl-URI
+libsqlite 3.42.0-2-x86_64.pkg.tar.zst 
+mpfr 4.2.1-1-x86_64.pkg.tar.zst gmp>=5.0
+gettext 0.22-1-x86_64.pkg.tar.zst libintl libgettextpo libasprintf
+perl-Clone 0.46-1-x86_64.pkg.tar.zst perl
+libpcre 8.45-3-x86_64.pkg.tar.zst gcc-libs
+libasprintf 0.22-1-x86_64.pkg.tar.zst gcc-libs
+libgpg-error 1.47-1-x86_64.pkg.tar.zst sh libiconv libintl
+libassuan 2.5.6-1-x86_64.pkg.tar.zst gcc-libs libgpg-error
+perl-HTML-Parser 3.81-1-x86_64.pkg.tar.zst perl-HTML-Tagset perl-HTTP-Message perl-URI perl
+perl-IO-HTML 1.004-2-any.pkg.tar.zst perl
+libnettle 3.9.1-1-x86_64.pkg.tar.zst libhogweed
+heimdal 7.8.0-4-x86_64.pkg.tar.zst heimdal-libs
+libltdl 2.4.7-3-x86_64.pkg.tar.zst 
+perl-Net-HTTP 6.23-1-any.pkg.tar.zst perl>=5.6.2
+pcre2 10.42-1-x86_64.pkg.tar.zst libreadline libbz2 zlib libpcre2_8=10.42 libpcre2_16=10.42 libpcre2_32=10.42 libpcre2posix=10.42
+libssh2 1.11.0-1-x86_64.pkg.tar.zst ca-certificates openssl zlib
+gnupg 2.2.41-1-x86_64.pkg.tar.zst bzip2 libassuan libbz2 libcurl libgcrypt libgpg-error libgnutls libiconv libintl libksba libnpth libreadline libsqlite nettle pinentry zlib
+perl-Encode-Locale 1.05-2-any.pkg.tar.zst perl>=5.008
+perl-File-Listing 6.16-1-any.pkg.tar.zst perl>=5.8.8 perl-HTTP-Date>=6
+libffi 3.4.4-1-x86_64.pkg.tar.zst 
+pinentry 1.2.1-1-x86_64.pkg.tar.zst ncurses libassuan libgpg-error
+libcbor 0.9.0-1-x86_64.pkg.tar.zst 
+libpcre2posix 10.42-1-x86_64.pkg.tar.zst libpcre2_8=10.42
+libksba 1.6.4-1-x86_64.pkg.tar.zst gcc-libs libgpg-error
+libgettextpo 0.22-1-x86_64.pkg.tar.zst gcc-libs
+perl-HTML-Tagset 3.20-3-any.pkg.tar.zst perl>=5.10.0
+libnpth 1.6-1-x86_64.pkg.tar.xz gcc-libs
+libhogweed 3.9.1-1-x86_64.pkg.tar.zst gmp
+libpcre2_16 10.42-1-x86_64.pkg.tar.zst gcc-libs
+libpcre2_32 10.42-1-x86_64.pkg.tar.zst gcc-libs
+nettle 3.9.1-1-x86_64.pkg.tar.zst libnettle
