@@ -1,0 +1,22 @@
+package:
+  name: m2-nettle
+  version: 3.9.1.1
+source:
+  - url: {{ msys2_pkg_url }}/nettle-3.9.1-1-x86_64.pkg.tar.zst
+    sha256: 6e6ee7a66e571ca1a52a73a5254d3fb25fe5209d92d335fce76ecbbc2b9b0739
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libnettle
+
+about:
+  home: https://www.lysator.liu.se/~nisse/nettle/
+  license: GPL-2.0-or-later OR LGPL-3.0-or-later
+  summary: A low-level cryptographic library

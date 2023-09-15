@@ -1,0 +1,23 @@
+package:
+  name: m2-automake1.15
+  version: 1.15.1.4
+source:
+  - url: {{ msys2_pkg_url }}/automake1.15-1.15.1-4-any.pkg.tar.zst
+    sha256: e3c73d0094eebbc2353b2ddd0b7c81020917c2ec09d3e4967d7abc9794fa7843
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+    - m2-bash
+
+about:
+  home: https://www.gnu.org/software/automake
+  license: GPL
+  summary: A GNU tool for automatically creating Makefiles

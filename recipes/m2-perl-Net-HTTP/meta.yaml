@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Net-HTTP
+  version: 6.23.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-Net-HTTP-6.23-1-any.pkg.tar.zst
+    sha256: f88b4e08d2a51a77002ead4c002fe5940bbc0c57ce6f7263975197f8ca0d2066
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.6.2
+
+about:
+  home: https://metacpan.org/release/Net-HTTP
+  license: PerlArtistic
+  summary: Low-level HTTP connection (client)

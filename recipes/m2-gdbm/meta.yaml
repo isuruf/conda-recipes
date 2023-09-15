@@ -1,0 +1,22 @@
+package:
+  name: m2-gdbm
+  version: 1.23.1
+source:
+  - url: {{ msys2_pkg_url }}/gdbm-1.23-1-x86_64.pkg.tar.zst
+    sha256: bdc3b7caf636cfe5ddc6240e9cdf916846a7e74b6878ba444e8624b2415a57c2
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libgdbm=1.23
+
+about:
+  home: https://www.gnu.org/software/gdbm/gdbm.html
+  license: GPL3
+  summary: GNU database library

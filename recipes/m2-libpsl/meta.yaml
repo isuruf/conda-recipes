@@ -1,0 +1,24 @@
+package:
+  name: m2-libpsl
+  version: 0.21.2.1
+source:
+  - url: {{ msys2_pkg_url }}/libpsl-0.21.2-1-x86_64.pkg.tar.zst
+    sha256: 00312499c5f498d7dd9caee86a3b46c3dd9248b02f49424d900b98d736831c01
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libxslt
+    - m2-libidn2
+    - m2-libunistring
+
+about:
+  home: https://github.com/rockdaboot/libpsl
+  license: MIT
+  summary: Public Suffix List library (runtime)

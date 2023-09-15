@@ -1,0 +1,22 @@
+package:
+  name: m2-libgettextpo
+  version: 0.22.1
+source:
+  - url: {{ msys2_pkg_url }}/libgettextpo-0.22-1-x86_64.pkg.tar.zst
+    sha256: d6d9684a070795dc1dd0ffbbf0e3e72e34168a131efc5a7797dddc4ffca7a657
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.gnu.org/software/gettext/
+  license: GPL
+  summary: GNU Internationalization runtime library

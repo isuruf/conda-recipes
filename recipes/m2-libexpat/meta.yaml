@@ -1,0 +1,22 @@
+package:
+  name: m2-libexpat
+  version: 2.5.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libexpat-2.5.0-1-x86_64.pkg.tar.zst
+    sha256: 91948949a2e257a3517b3ba7d4b145bcfa82fa5892d527e2705f793741b7e638
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://libexpat.github.io/
+  license: MIT
+  summary: An XML parser library

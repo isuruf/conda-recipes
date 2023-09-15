@@ -1,0 +1,30 @@
+package:
+  name: m2-libgnutls
+  version: 3.8.1.1
+source:
+  - url: {{ msys2_pkg_url }}/libgnutls-3.8.1-1-x86_64.pkg.tar.zst
+    sha256: b99ad2a7d8af92d2374f5563275cfdfa447de7826ee68b2ac591de09274fab2c
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libidn2
+    - m2-libiconv
+    - m2-libintl
+    - m2-gmp
+    - m2-libnettle
+    - m2-libp11-kit
+    - m2-libtasn1
+    - m2-zlib
+
+about:
+  home: https://www.gnutls.org/
+  license: GPL-3.0-or-later
+  summary: A library which provides a secure layer over a reliable transport layer

@@ -1,0 +1,23 @@
+package:
+  name: m2-zstd
+  version: 1.5.5.1
+source:
+  - url: {{ msys2_pkg_url }}/zstd-1.5.5-1-x86_64.pkg.tar.zst
+    sha256: 187dc3eafddf95dfbdc1f3d05c03325fc60d839d2b75de0e1bd61adeec284550
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libzstd
+
+about:
+  home: https://facebook.github.io/zstd/
+  license: BSD
+  summary: Zstandard - Fast real-time compression algorithm

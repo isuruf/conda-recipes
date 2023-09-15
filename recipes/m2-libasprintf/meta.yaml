@@ -1,0 +1,22 @@
+package:
+  name: m2-libasprintf
+  version: 0.22.1
+source:
+  - url: {{ msys2_pkg_url }}/libasprintf-0.22-1-x86_64.pkg.tar.zst
+    sha256: 0d64dc73776aae1ba4387842a282a011c694cc7712d64370145d8ef5e6c01c54
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.gnu.org/software/gettext/
+  license: GPL
+  summary: C-style formatted output in C++ (runtime)

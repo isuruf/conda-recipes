@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Authen-SASL
+  version: 2.16.3
+source:
+  - url: {{ msys2_pkg_url }}/perl-Authen-SASL-2.16-3-any.pkg.tar.zst
+    sha256: d17bb01a8fc2402db6a41b601f0c8d73bb6d04836426fcb0b3b7aa4bd6aef6c1
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/dist/Authen-SASL
+  license: GPL
+  summary: Perl/CPAN Module Authen::SASL : SASL authentication framework

@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-URI
+  version: 5.21.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-URI-5.21-1-any.pkg.tar.zst
+    sha256: b1ac37dfcb21d7c55ac2085637b5261b4187c4e27f5cd9c2beb134f90b298c61
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.10.0
+
+about:
+  home: https://metacpan.org/dist/URI
+  license: PerlArtistic
+  summary: Uniform Resource Identifiers (absolute and relative)

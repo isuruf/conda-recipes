@@ -1,0 +1,22 @@
+package:
+  name: m2-patch
+  version: 2.7.6.2
+source:
+  - url: {{ msys2_pkg_url }}/patch-2.7.6-2-x86_64.pkg.tar.zst
+    sha256: 6b1072509dc031c961b7984660b51a043186bb8976ee0b2aeeb08a78926962ef
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://www.gnu.org/software/patch/patch.html
+  license: GPL
+  summary: A utility to apply patch files to original sources

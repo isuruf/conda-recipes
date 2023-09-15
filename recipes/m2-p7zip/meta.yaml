@@ -1,0 +1,23 @@
+package:
+  name: m2-p7zip
+  version: 17.05.1
+source:
+  - url: {{ msys2_pkg_url }}/p7zip-17.05-1-x86_64.pkg.tar.zst
+    sha256: 42aa8c7864f1c7249ed98efdd21cd44072a388dced102345719f7d3215c87d71
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-bash
+
+about:
+  home: https://github.com/p7zip-project/p7zip
+  license: LGPL
+  summary: Command-line version of the 7zip compressed file archiver

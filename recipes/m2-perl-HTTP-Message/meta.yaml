@@ -1,0 +1,28 @@
+package:
+  name: m2-perl-HTTP-Message
+  version: 6.44.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-HTTP-Message-6.44-1-any.pkg.tar.zst
+    sha256: a1b9529f798daf3edc4cd3f3b262aee170515cbe635a27fad0512aa67f87d70d
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.8.8
+    - m2-perl-Clone
+    - m2-perl-Encode-Locale>=1
+    - m2-perl-IO-HTML
+    - m2-perl-HTTP-Date>=6
+    - m2-perl-LWP-MediaTypes>=6
+    - m2-perl-URI>=1.10
+
+about:
+  home: https://metacpan.org/release/HTTP-Message
+  license: PerlArtistic
+  summary: HTTP style messages

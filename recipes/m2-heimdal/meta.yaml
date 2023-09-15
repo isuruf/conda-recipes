@@ -1,0 +1,22 @@
+package:
+  name: m2-heimdal
+  version: 7.8.0.4
+source:
+  - url: {{ msys2_pkg_url }}/heimdal-7.8.0-4-x86_64.pkg.tar.zst
+    sha256: eeda86c5213f5e9be23fdbab15d9196103254406b26852df7f13050e640c9cfe
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-heimdal-libs
+
+about:
+  home: https://www.h5l.org/
+  license: custom
+  summary: Implementation of Kerberos V5 libraries

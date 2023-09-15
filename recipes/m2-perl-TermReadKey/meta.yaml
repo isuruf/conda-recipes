@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-TermReadKey
+  version: 2.38.5
+source:
+  - url: {{ msys2_pkg_url }}/perl-TermReadKey-2.38-5-x86_64.pkg.tar.zst
+    sha256: 0c4cfba570a6517832b10bcbc2ca5864e4f1700bed35d2cf47b8565fdbb32b42
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/dist/TermReadKey
+  license: custom
+  summary: Provides simple control over terminal driver modes

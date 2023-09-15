@@ -1,0 +1,24 @@
+package:
+  name: m2-libp11-kit
+  version: 0.25.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libp11-kit-0.25.0-1-x86_64.pkg.tar.zst
+    sha256: 1184248c94dc57d20b10f056f68527f209e162737e66b0487e668701d1651602
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libffi
+    - m2-libintl
+    - m2-libtasn1
+
+about:
+  home: https://p11-glue.freedesktop.org/p11-kit.html
+  license: BSD
+  summary: Library to work with PKCS#11 modules

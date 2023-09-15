@@ -1,0 +1,23 @@
+package:
+  name: m2-sed
+  version: 4.9.1
+source:
+  - url: {{ msys2_pkg_url }}/sed-4.9-1-x86_64.pkg.tar.zst
+    sha256: 3748af28f69e946ec5a42e6670c9bbf6da7352dc93baaa537f69e99c5483b9fc
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libintl
+    - m2-sh
+
+about:
+  home: https://www.gnu.org/software/sed
+  license: GPL3
+  summary: GNU stream editor

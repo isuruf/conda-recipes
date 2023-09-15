@@ -1,0 +1,23 @@
+package:
+  name: m2-less
+  version: 643.1
+source:
+  - url: {{ msys2_pkg_url }}/less-643-1-x86_64.pkg.tar.zst
+    sha256: 98ae31062a4e3cb18e697b0f3882a5b9278db2bdefc03665dd5b0d17e941ff0f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ncurses
+    - m2-libpcre2_8
+
+about:
+  home: http://www.greenwoodsoftware.com/less
+  license: GPL3
+  summary: A terminal based program for viewing text files

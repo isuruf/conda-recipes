@@ -1,0 +1,22 @@
+package:
+  name: m2-libpcre
+  version: 8.45.3
+source:
+  - url: {{ msys2_pkg_url }}/libpcre-8.45-3-x86_64.pkg.tar.zst
+    sha256: 58b17a72234e218486b98b3191c48bd585342b02bd72e03c00f43dd7618eaf95
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.pcre.org/
+  license: BSD
+  summary: A library that implements Perl 5-style regular expressions

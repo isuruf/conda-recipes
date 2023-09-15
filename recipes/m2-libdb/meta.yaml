@@ -1,0 +1,22 @@
+package:
+  name: m2-libdb
+  version: 5.3.28.4
+source:
+  - url: {{ msys2_pkg_url }}/libdb-5.3.28-4-x86_64.pkg.tar.zst
+    sha256: 225cafc40ce7dc798fce2af37acd79d25a6525d356a22ec7d68a715d6d2c973e
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+  license: custom
+  summary: The Berkeley DB embedded database system

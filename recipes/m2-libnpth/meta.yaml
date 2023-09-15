@@ -1,0 +1,22 @@
+package:
+  name: m2-libnpth
+  version: 1.6.1
+source:
+  - url: {{ msys2_pkg_url }}/libnpth-1.6-1-x86_64.pkg.tar.xz
+    sha256: fe32612e363976dfe157d3a70f8af7aeca4e347abc5294e95cdd3d9a7aea5e68
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://gnupg.org/
+  license: LGPL
+  summary: New portable threads library

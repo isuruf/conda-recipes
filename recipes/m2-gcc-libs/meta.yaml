@@ -1,0 +1,22 @@
+package:
+  name: m2-gcc-libs
+  version: 11.3.0.4
+source:
+  - url: {{ msys2_pkg_url }}/gcc-libs-11.3.0-4-x86_64.pkg.tar.zst
+    sha256: 77fc9612c4ac2a4683806b24d057103a8cc1fc4ef6ade23d13c6925192ef3f8d
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://gcc.gnu.org/
+  license: GPL
+  summary: Runtime libraries shipped by GCC

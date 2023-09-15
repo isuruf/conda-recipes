@@ -1,0 +1,23 @@
+package:
+  name: m2-libiconv
+  version: 1.17.1
+source:
+  - url: {{ msys2_pkg_url }}/libiconv-1.17-1-x86_64.pkg.tar.zst
+    sha256: e7f76e543fc27b44b243d9c3a69af036f40c6da64f16488813301a32646127c2
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libintl
+
+about:
+  home: https://www.gnu.org/software/libiconv/
+  license: LGPL
+  summary: Libiconv is a conversion library

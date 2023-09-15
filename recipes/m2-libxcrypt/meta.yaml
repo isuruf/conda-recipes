@@ -1,0 +1,22 @@
+package:
+  name: m2-libxcrypt
+  version: 4.4.36.1
+source:
+  - url: {{ msys2_pkg_url }}/libxcrypt-4.4.36-1-x86_64.pkg.tar.zst
+    sha256: cbbbd3bd5ea8e1ecd5314d22cd06b284f3ae8e7d8ae3a1ffa8a863672703a2ee
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://github.com/besser82/libxcrypt/
+  license: LGPL-2.1-or-later
+  summary: Modern library for one-way hashing of passwords

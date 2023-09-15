@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Net-SMTP-SSL
+  version: 1.04.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-Net-SMTP-SSL-1.04-2-any.pkg.tar.zst
+    sha256: 31f4d27a07dd5091856e35fe7c4c5b10665744fd6a0f340f0e8f41da4935b655
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl-IO-Socket-SSL
+
+about:
+  home: https://metacpan.org/dist/Net-SMTP-SSL
+  license: GPL
+  summary: SSL support for Net::SMTP

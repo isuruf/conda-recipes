@@ -1,0 +1,24 @@
+package:
+  name: m2-libgpgme
+  version: 1.22.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libgpgme-1.22.0-1-x86_64.pkg.tar.zst
+    sha256: 7667a7d3b81ad239a59e3037414947a0e7305b80da2b3cd2f22f78fcefdc53b8
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libassuan
+    - m2-libgpg-error
+    - m2-gnupg
+
+about:
+  home: https://gnupg.org/related_software/gpgme/
+  license: LGPL
+  summary: A C wrapper library for GnuPG

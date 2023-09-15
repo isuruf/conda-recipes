@@ -1,0 +1,22 @@
+package:
+  name: m2-bzip2
+  version: 1.0.8.4
+source:
+  - url: {{ msys2_pkg_url }}/bzip2-1.0.8-4-x86_64.pkg.tar.zst
+    sha256: 635c483775de60663bd38859bb4624e6aaa1086354acf8e36513b75c24f64b3c
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libbz2
+
+about:
+  home: http://www.bzip.org
+  license: custom
+  summary: A high-quality data compression program

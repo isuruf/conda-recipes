@@ -1,0 +1,26 @@
+package:
+  name: m2-libxml2
+  version: 2.9.14.5
+source:
+  - url: {{ msys2_pkg_url }}/libxml2-2.9.14-5-x86_64.pkg.tar.zst
+    sha256: c4a14f793053f056ed8314327b2148a0f41483756d640a42dbde73c271bbac66
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-coreutils
+    - m2-liblzma
+    - m2-libreadline
+    - m2-ncurses
+    - m2-zlib
+
+about:
+  home: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/
+  license: MIT
+  summary: XML parsing library, version 2

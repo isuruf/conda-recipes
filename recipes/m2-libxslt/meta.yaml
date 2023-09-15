@@ -1,0 +1,23 @@
+package:
+  name: m2-libxslt
+  version: 1.1.38.1
+source:
+  - url: {{ msys2_pkg_url }}/libxslt-1.1.38-1-x86_64.pkg.tar.zst
+    sha256: 13ad5e0cb635d2048d74669282d364803cd8229cd00ead2621b5cf74442c249f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libxml2
+    - m2-libgcrypt
+
+about:
+  home: https://gitlab.gnome.org/GNOME/libxslt/-/wikis/
+  license: custom
+  summary: XML stylesheet transformation library

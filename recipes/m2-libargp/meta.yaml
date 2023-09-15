@@ -1,0 +1,22 @@
+package:
+  name: m2-libargp
+  version: 20110921.4
+source:
+  - url: {{ msys2_pkg_url }}/libargp-20110921-4-x86_64.pkg.tar.zst
+    sha256: c04180a5ce3f779ef9d1a3d2955a029bfb6bacae6b7ca5a6741a6a631e87acac
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://www.gnu.org/software/libc/libc.html
+  license: GPL
+  summary: Interface for parsing command-line arguments

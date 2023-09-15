@@ -1,0 +1,25 @@
+package:
+  name: m2-info
+  version: 7.0.3.3
+source:
+  - url: {{ msys2_pkg_url }}/info-7.0.3-3-x86_64.pkg.tar.zst
+    sha256: 23804df3837d5c24ab86e4eee02b2dc3c5abe217cc8324c0d5d7f968bac82623
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gzip
+    - m2-libxcrypt
+    - m2-libintl
+    - m2-ncurses
+
+about:
+  home: https://www.gnu.org/software/texinfo/
+  license: GPL-3.0-or-later
+  summary: Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file

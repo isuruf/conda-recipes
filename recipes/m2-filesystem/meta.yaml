@@ -1,0 +1,22 @@
+package:
+  name: m2-filesystem
+  version: 2023.02.07.1
+source:
+  - url: {{ msys2_pkg_url }}/filesystem-2023.02.07-1-x86_64.pkg.tar.zst
+    sha256: 7ab6ed1bed694b51f6c54df0f315ea8dbbed7fb149af66740df4ef20f2449281
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://github.com/msys2/MSYS2-packages/tree/master/filesystem
+  license: BSD-3-Clause
+  summary: Base filesystem

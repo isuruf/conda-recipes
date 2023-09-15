@@ -1,0 +1,22 @@
+package:
+  name: m2-libltdl
+  version: 2.4.7.3
+source:
+  - url: {{ msys2_pkg_url }}/libltdl-2.4.7-3-x86_64.pkg.tar.zst
+    sha256: 370f58beaf159e45248bcb222374a7159ad98be3e04557d4e9e032692daa7347
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://www.gnu.org/software/libtool/
+  license: GPL-2.0-or-later
+  summary: A system independent dlopen wrapper for GNU libtool

@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-LWP-MediaTypes
+  version: 6.04.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-LWP-MediaTypes-6.04-1-any.pkg.tar.zst
+    sha256: f09a68da0b31b91b553cf47783328d32525b55f5dcfbc01b5166ea6eab5a01a6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/release/LWP-MediaTypes
+  license: PerlArtistic
+  summary: Guess the media type of a file or a URL

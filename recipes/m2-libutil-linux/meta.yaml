@@ -1,0 +1,23 @@
+package:
+  name: m2-libutil-linux
+  version: 2.35.2.4
+source:
+  - url: {{ msys2_pkg_url }}/libutil-linux-2.35.2-4-x86_64.pkg.tar.zst
+    sha256: 26863895abfcfbd03b291ca09146cb66c207d51af7b2caef4f2ae0f8f995592a
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libintl
+
+about:
+  home: https://www.kernel.org/pub/linux/utils/util-linux/
+  license: GPL3
+  summary: Block device ID and Universally Unique ID libraries

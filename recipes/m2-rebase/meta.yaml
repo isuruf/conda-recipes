@@ -1,0 +1,22 @@
+package:
+  name: m2-rebase
+  version: 4.5.0.4
+source:
+  - url: {{ msys2_pkg_url }}/rebase-4.5.0-4-x86_64.pkg.tar.zst
+    sha256: 60d400a402f3f623f94e38fe1f6d126558d103690a2eca616ae787c0de09935f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-dash
+
+about:
+  home: https://www.cygwin.com/
+  license: custom
+  summary: The Cygwin rebase distribution contains four utilities, rebase, rebaseall, peflags, and peflagsall

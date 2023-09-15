@@ -1,0 +1,27 @@
+package:
+  name: m2-autoconf
+  version: 2.71.3
+source:
+  - url: {{ msys2_pkg_url }}/autoconf-2.71-3-any.pkg.tar.zst
+    sha256: 703ea0566c4ec85278d23c626eee976af5bfec2d935d1ef3b5995f1ed4c180e7
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-awk
+    - m2-m4
+    - m2-diffutils
+    - m2-bash
+    - m2-perl
+    - m2-sed
+
+about:
+  home: https://www.gnu.org/software/autoconf
+  license: GPL2
+  summary: A GNU tool for automatically configuring source code

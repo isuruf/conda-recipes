@@ -1,0 +1,25 @@
+package:
+  name: m2-grep
+  version: 1~3.0.6
+source:
+  - url: {{ msys2_pkg_url }}/grep-1~3.0-6-x86_64.pkg.tar.zst
+    sha256: c6f4e3ef55d56e0ea7695cd9450486157bae50c4b1c68bd073aa5a8b8af855bf
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libiconv
+    - m2-libintl
+    - m2-libpcre
+    - m2-sh
+
+about:
+  home: https://www.gnu.org/software/grep/
+  license: GPL3
+  summary: A string search utility

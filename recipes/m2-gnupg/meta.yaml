@@ -1,0 +1,37 @@
+package:
+  name: m2-gnupg
+  version: 2.2.41.1
+source:
+  - url: {{ msys2_pkg_url }}/gnupg-2.2.41-1-x86_64.pkg.tar.zst
+    sha256: 82c315a766164ab5ed494904c5ea05955ebf96703bee738e18826a44ae63e39e
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bzip2
+    - m2-libassuan
+    - m2-libbz2
+    - m2-libcurl
+    - m2-libgcrypt
+    - m2-libgpg-error
+    - m2-libgnutls
+    - m2-libiconv
+    - m2-libintl
+    - m2-libksba
+    - m2-libnpth
+    - m2-libreadline
+    - m2-libsqlite
+    - m2-nettle
+    - m2-pinentry
+    - m2-zlib
+
+about:
+  home: https://gnupg.org/
+  license: GPL
+  summary: Complete and free implementation of the OpenPGP standard

@@ -1,0 +1,23 @@
+package:
+  name: m2-libassuan
+  version: 2.5.6.1
+source:
+  - url: {{ msys2_pkg_url }}/libassuan-2.5.6-1-x86_64.pkg.tar.zst
+    sha256: bb94c7446363c19c5082d7efc6c7dd3e78ffb803e7119cbc0695fd2c7f54055d
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libgpg-error
+
+about:
+  home: https://gnupg.org/related_software/libassuan
+  license: GPL
+  summary: A IPC library used by some GnuPG related software

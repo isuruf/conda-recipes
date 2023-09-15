@@ -1,0 +1,22 @@
+package:
+  name: m2-patchutils
+  version: 0.4.2.3
+source:
+  - url: {{ msys2_pkg_url }}/patchutils-0.4.2-3-x86_64.pkg.tar.zst
+    sha256: 084bf945a9bb2157d38e7bef129432ce30719a514d6df62d7847bd2eb292a728
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-pcre2
+
+about:
+  home: http://cyberelk.net/tim/software/patchutils/
+  license: GPL
+  summary: Utilities to work with patches

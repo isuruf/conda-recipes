@@ -1,0 +1,24 @@
+package:
+  name: m2-diffutils
+  version: 3.9.1
+source:
+  - url: {{ msys2_pkg_url }}/diffutils-3.9-1-x86_64.pkg.tar.zst
+    sha256: bb5f6356a68195c643b9f22cbbe06f7499a1bf85a7afc57844000f1decc5228e
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-sh
+    - m2-libiconv
+    - m2-libintl
+
+about:
+  home: https://www.gnu.org/software/diffutils
+  license: GPL-3.0-or-later
+  summary: Utility programs used for creating patch files

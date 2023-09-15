@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-MailTools
+  version: 2.21.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-MailTools-2.21-1-any.pkg.tar.xz
+    sha256: f2699b7d3c9d6e3dbc2c1b7372aeb4b0ad11ea0f2b0fbd5b24c78570990999b6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl-TimeDate
+
+about:
+  home: https://metacpan.org/release/MailTools
+  license: PerlArtistic
+  summary: Various e-mail related modules

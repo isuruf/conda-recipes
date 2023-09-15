@@ -1,0 +1,35 @@
+package:
+  name: m2-git
+  version: 2.42.0.2
+source:
+  - url: {{ msys2_pkg_url }}/git-2.42.0-2-x86_64.pkg.tar.zst
+    sha256: e724c5ba6c3da842431f3b9625027afd449f34cace59793edd4245e355a20533
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-curl
+    - m2-libpcre2_8
+    - m2-libexpat
+    - m2-libintl
+    - m2-nano
+    - m2-openssh
+    - m2-openssl
+    - m2-perl-Error
+    - m2-perl>=5.14.0
+    - m2-perl-Authen-SASL
+    - m2-perl-libwww
+    - m2-perl-MIME-tools
+    - m2-perl-Net-SMTP-SSL
+    - m2-perl-TermReadKey
+
+about:
+  home: https://git-scm.com/
+  license: GPL2
+  summary: The fast distributed version control system

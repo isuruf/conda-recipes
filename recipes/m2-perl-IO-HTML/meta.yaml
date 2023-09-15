@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-IO-HTML
+  version: 1.004.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-IO-HTML-1.004-2-any.pkg.tar.zst
+    sha256: d84e9eb722f7e256cfbc8d84894e7413b68498fbda08df83f75a08807bafa3e1
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/release/IO-HTML
+  license: PerlArtistic
+  summary: Open an HTML file with automatic charset detection

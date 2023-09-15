@@ -1,0 +1,22 @@
+package:
+  name: m2-which
+  version: 2.21.4
+source:
+  - url: {{ msys2_pkg_url }}/which-2.21-4-x86_64.pkg.tar.zst
+    sha256: f5a64b01b801032dcfaecb80e7419ee6ff77e708fc2f6ab91bff67cdefdb4608
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-sh
+
+about:
+  home: https://savannah.gnu.org/projects/which/
+  license: GPL3
+  summary: A utility to show the full path of commands

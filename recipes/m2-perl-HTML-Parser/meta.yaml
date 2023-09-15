@@ -1,0 +1,25 @@
+package:
+  name: m2-perl-HTML-Parser
+  version: 3.81.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-HTML-Parser-3.81-1-x86_64.pkg.tar.zst
+    sha256: 16e5f7c5c07104e4f5ab07b758f86a145ec659e6fb25c65fa83081e4b459caf6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl-HTML-Tagset
+    - m2-perl-HTTP-Message
+    - m2-perl-URI
+    - m2-perl
+
+about:
+  home: https://metacpan.org/dist/HTML-Parser
+  license: Artistic-1.0-Perl
+  summary: Perl HTML parser class

@@ -1,0 +1,24 @@
+package:
+  name: m2-libtool
+  version: 2.4.7.3
+source:
+  - url: {{ msys2_pkg_url }}/libtool-2.4.7-3-x86_64.pkg.tar.zst
+    sha256: 350aa77d3fcf730d052eb42db3a91bfd262ff4072defdaf5a675ac46450d505c
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-sh
+    - m2-libltdl=2.4.7
+    - m2-tar
+
+about:
+  home: https://www.gnu.org/software/libtool/
+  license: GPL-2.0-or-later
+  summary: A generic library support script

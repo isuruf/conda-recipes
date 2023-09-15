@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Clone
+  version: 0.46.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-Clone-0.46-1-x86_64.pkg.tar.zst
+    sha256: d0ba6a3d43136bf1193f0e3cd7f56bd4bcfaa615ac66b2e39a40383225020e0a
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://github.com/garu/Clone
+  license: GPL
+  summary: Recursive copy of nested objects.

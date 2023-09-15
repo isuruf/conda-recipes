@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Convert-BinHex
+  version: 1.125.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-Convert-BinHex-1.125-2-any.pkg.tar.zst
+    sha256: 164e802322370041dbb78d07ad3b59e017de1d281794734889bc905c273b4923
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/dist/Convert-BinHex
+  license: PerlArtistic
+  summary: Perl module to extract data from Macintosh BinHex files

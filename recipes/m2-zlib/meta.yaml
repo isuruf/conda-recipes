@@ -1,0 +1,22 @@
+package:
+  name: m2-zlib
+  version: 1.3.1
+source:
+  - url: {{ msys2_pkg_url }}/zlib-1.3-1-x86_64.pkg.tar.zst
+    sha256: f7f0fd9cba0cd7199efae693ba110cfe5eb25e1265fdda5600291b6a19be839f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.zlib.net/
+  license: custom
+  summary: Compression library implementing the deflate compression method found in gzip and PKZIP

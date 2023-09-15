@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Encode-Locale
+  version: 1.05.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-Encode-Locale-1.05-2-any.pkg.tar.zst
+    sha256: b6d0a57ca9e090073ba5a082cc0493dfbc1a85e6d9feaae70cceabadd28fd018
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.008
+
+about:
+  home: https://metacpan.org/dist/Encode-Locale
+  license: PerlArtistic
+  summary: Determine the locale encoding

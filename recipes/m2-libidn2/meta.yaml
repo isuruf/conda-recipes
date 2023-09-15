@@ -1,0 +1,23 @@
+package:
+  name: m2-libidn2
+  version: 2.3.4.2
+source:
+  - url: {{ msys2_pkg_url }}/libidn2-2.3.4-2-x86_64.pkg.tar.zst
+    sha256: e63598c8edaa45f72cffed28e6814728aff5ca9023ff03c0db83ebbbf7a57c43
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libunistring
+    - m2-libintl
+
+about:
+  home: https://www.gnu.org/software/libidn/
+  license: GPL3
+  summary: Implementation of the Stringprep, Punycode and IDNA specifications

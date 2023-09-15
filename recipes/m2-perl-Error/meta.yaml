@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Error
+  version: 0.17029.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-Error-0.17029-1-any.pkg.tar.xz
+    sha256: 6cf683ba1453343294bc7eb81c4c4dbcab4061cd05d9f32ccc554395b3b5277c
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/release/Error
+  license: PerlArtistic
+  summary: Perl/CPAN Error module - Error/exception handling in an OO-ish way

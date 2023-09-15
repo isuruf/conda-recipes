@@ -1,0 +1,23 @@
+package:
+  name: m2-perl-File-Listing
+  version: 6.16.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-File-Listing-6.16-1-any.pkg.tar.zst
+    sha256: d6c5083d5ecd859acf08dccdc4f98f4eed9170b7e7af86e7fcae1ce5789a2a00
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.8.8
+    - m2-perl-HTTP-Date>=6
+
+about:
+  home: https://metacpan.org/dist/File-Listing
+  license: Artistic-1.0-Perl
+  summary: parse directory listing

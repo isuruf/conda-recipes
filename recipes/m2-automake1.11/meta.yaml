@@ -1,0 +1,23 @@
+package:
+  name: m2-automake1.11
+  version: 1.11.6.6
+source:
+  - url: {{ msys2_pkg_url }}/automake1.11-1.11.6-6-any.pkg.tar.zst
+    sha256: 25ecc6296e1416513153c290442cbca6dcb813c1c50e5beb3a708408ba5de3a5
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+    - m2-bash
+
+about:
+  home: https://www.gnu.org/software/automake
+  license: GPL
+  summary: A GNU tool for automatically creating Makefiles

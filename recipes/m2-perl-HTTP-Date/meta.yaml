@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-HTTP-Date
+  version: 6.06.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-HTTP-Date-6.06-1-any.pkg.tar.zst
+    sha256: 8a89f624030eaeca3d642fc3f88e36203faa6c9af6eab5e5f6ac6ad89096d7d1
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.8.8
+
+about:
+  home: https://metacpan.org/release/HTTP-Date
+  license: PerlArtistic
+  summary: Date conversion routines

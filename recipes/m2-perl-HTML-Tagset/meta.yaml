@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-HTML-Tagset
+  version: 3.20.3
+source:
+  - url: {{ msys2_pkg_url }}/perl-HTML-Tagset-3.20-3-any.pkg.tar.zst
+    sha256: 0130529e4a1987caf531dd5888d5a5958006f26cfa611d554e48ab668b7d80cd
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.10.0
+
+about:
+  home: https://metacpan.org/dist/HTML-Tagset
+  license: PerlArtistic
+  summary: Data tables useful in parsing HTML

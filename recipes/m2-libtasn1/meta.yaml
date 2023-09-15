@@ -1,0 +1,22 @@
+package:
+  name: m2-libtasn1
+  version: 4.19.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libtasn1-4.19.0-1-x86_64.pkg.tar.zst
+    sha256: 12a64edc286b731f13a745dc436f7db3a42181caa1e84baa5e300b42710d053f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-info
+
+about:
+  home: https://www.gnu.org/software/libtasn1/
+  license: GPL3
+  summary: A library for Abstract Syntax Notation One (ASN.1) and Distinguish Encoding Rules (DER) manipulation

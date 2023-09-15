@@ -1,0 +1,22 @@
+package:
+  name: m2-brotli
+  version: 1.1.0.1
+source:
+  - url: {{ msys2_pkg_url }}/brotli-1.1.0-1-x86_64.pkg.tar.zst
+    sha256: 93dfc7b33c177404f8991e29e11b8f8594c0e59625e09d8c61ef6bbe91e8f9b6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://github.com/google/brotli
+  license: MIT
+  summary: Brotli compression library

@@ -1,0 +1,24 @@
+package:
+  name: m2-libssh2
+  version: 1.11.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libssh2-1.11.0-1-x86_64.pkg.tar.zst
+    sha256: 8535b9757ff44edab022133eb54430908ac51c710bc9c7f18a09370cc4cc8421
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ca-certificates
+    - m2-openssl
+    - m2-zlib
+
+about:
+  home: https://libssh2.org/
+  license: BSD
+  summary: Multi-protocol file transfer library (runtime)

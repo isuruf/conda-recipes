@@ -1,0 +1,22 @@
+package:
+  name: m2-libreadline
+  version: 8.2.001.3
+source:
+  - url: {{ msys2_pkg_url }}/libreadline-8.2.001-3-x86_64.pkg.tar.zst
+    sha256: 1eae41d5193795323c7762a709e576d0cd533f877284acf80460b9adef37ed65
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ncurses
+
+about:
+  home: https://tiswww.case.edu/php/chet/readline/rltop.html
+  license: GPL
+  summary: GNU readline library

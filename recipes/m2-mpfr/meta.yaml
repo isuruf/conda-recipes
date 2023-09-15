@@ -1,0 +1,22 @@
+package:
+  name: m2-mpfr
+  version: 4.2.1.1
+source:
+  - url: {{ msys2_pkg_url }}/mpfr-4.2.1-1-x86_64.pkg.tar.zst
+    sha256: f3c80c5b56f34d2dbc3aa29c53d68444125bb39ac92b4eb022151c3157837af8
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gmp>=5.0
+
+about:
+  home: https://www.mpfr.org/
+  license: LGPL-3.0-or-later
+  summary: Multiple-precision floating-point library

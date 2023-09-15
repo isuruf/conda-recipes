@@ -1,0 +1,23 @@
+package:
+  name: m2-findutils
+  version: 4.9.0.3
+source:
+  - url: {{ msys2_pkg_url }}/findutils-4.9.0-3-x86_64.pkg.tar.zst
+    sha256: 7cdbeb891be60cede94a2f9b0eb85bcf9742396b957347eb9043966d8663a831
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libiconv
+    - m2-libintl
+
+about:
+  home: https://www.gnu.org/software/findutils
+  license: GPL3
+  summary: GNU utilities to locate files

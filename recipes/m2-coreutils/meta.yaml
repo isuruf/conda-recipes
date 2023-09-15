@@ -1,0 +1,24 @@
+package:
+  name: m2-coreutils
+  version: 8.32.5
+source:
+  - url: {{ msys2_pkg_url }}/coreutils-8.32-5-x86_64.pkg.tar.zst
+    sha256: 62dfee1c39fd15f99c39802b35e82643bc14fffc16d6c76d4001caa385ec77e3
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gmp
+    - m2-libiconv
+    - m2-libintl
+
+about:
+  home: https://www.gnu.org/software/coreutils
+  license: GPL3
+  summary: The basic file, shell and text manipulation utilities of the GNU operating system

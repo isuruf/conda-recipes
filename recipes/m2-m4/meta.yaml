@@ -1,0 +1,24 @@
+package:
+  name: m2-m4
+  version: 1.4.19.2
+source:
+  - url: {{ msys2_pkg_url }}/m4-1.4.19-2-x86_64.pkg.tar.zst
+    sha256: 4a1d296571afa7b8837fd5e227e16c9cb7e26c0f31f03b364e11c1ae8ee2a913
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bash
+    - m2-gcc-libs
+    - m2-libiconv
+
+about:
+  home: https://www.gnu.org/software/m4
+  license: GPL3
+  summary: The GNU macro processor

@@ -1,0 +1,24 @@
+package:
+  name: m2-perl-MIME-tools
+  version: 5.510.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-MIME-tools-5.510-1-any.pkg.tar.zst
+    sha256: a464ea14dfee02d26bb703bd64e1629115492588ae6ed1b7bc94557dcd9524c3
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl-MailTools
+    - m2-perl-IO-stringy
+    - m2-perl-Convert-BinHex
+
+about:
+  home: https://metacpan.org/release/MIME-tools
+  license: GPL
+  summary: Parses streams to create MIME entities

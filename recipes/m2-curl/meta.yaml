@@ -1,0 +1,28 @@
+package:
+  name: m2-curl
+  version: 8.2.1.1
+source:
+  - url: {{ msys2_pkg_url }}/curl-8.2.1-1-x86_64.pkg.tar.zst
+    sha256: 9950e8e52f665e9a754bba9061edd34251735a3ca829ba7d1d8f8b248166d7ef
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ca-certificates
+    - m2-libcurl
+    - m2-libunistring
+    - m2-libnghttp2
+    - m2-libpsl
+    - m2-openssl
+    - m2-zlib
+
+about:
+  home: https://curl.haxx.se
+  license: MIT
+  summary: Multi-protocol file transfer utility

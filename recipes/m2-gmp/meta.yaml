@@ -1,0 +1,22 @@
+package:
+  name: m2-gmp
+  version: 6.3.0.1
+source:
+  - url: {{ msys2_pkg_url }}/gmp-6.3.0-1-x86_64.pkg.tar.zst
+    sha256: d52634e1b0b99237e3ea457e5b4b114fdf39576d85efef3acb6c22069533b611
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://gmplib.org/
+  license: LGPL3
+  summary: A free library for arbitrary precision arithmetic

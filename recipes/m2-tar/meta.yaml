@@ -1,0 +1,24 @@
+package:
+  name: m2-tar
+  version: 1.34.3
+source:
+  - url: {{ msys2_pkg_url }}/tar-1.34-3-x86_64.pkg.tar.zst
+    sha256: 9957cabf42e42c843e1459576340facdf268d66e285fcba139bf810be2662c04
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libiconv
+    - m2-libintl
+    - m2-sh
+
+about:
+  home: https://www.gnu.org/software/tar/tar.html
+  license: GPL3
+  summary: Utility used to store, backup, and transport files

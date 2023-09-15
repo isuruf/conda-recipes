@@ -1,0 +1,22 @@
+package:
+  name: m2-zip
+  version: 3.0.3
+source:
+  - url: {{ msys2_pkg_url }}/zip-3.0-3-x86_64.pkg.tar.xz
+    sha256: 0264950ec9122e5b3b92a1d9fffbe6f4240ab9dee4baf4ec129762866a6c1dc6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libbz2
+
+about:
+  home: http://www.info-zip.org/Zip.html
+  license: BSD
+  summary: Creates PKZIP-compatible .zip files

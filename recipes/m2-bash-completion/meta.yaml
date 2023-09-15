@@ -1,0 +1,22 @@
+package:
+  name: m2-bash-completion
+  version: 2.11.3
+source:
+  - url: {{ msys2_pkg_url }}/bash-completion-2.11-3-any.pkg.tar.zst
+    sha256: c9a742238ab23e8b1ff448fb606634e907345a51aee36a99c7987830394308f6
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bash
+
+about:
+  home: https://github.com/scop/bash-completion
+  license: GPL
+  summary: Programmable completion for the bash shell

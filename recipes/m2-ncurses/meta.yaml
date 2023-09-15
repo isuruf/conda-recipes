@@ -1,0 +1,22 @@
+package:
+  name: m2-ncurses
+  version: 6.4.1
+source:
+  - url: {{ msys2_pkg_url }}/ncurses-6.4-1-x86_64.pkg.tar.zst
+    sha256: 1158b5939bf20f3aecd33d0877f13d2e204672096b0eff63eeaee4e134c3888d
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://www.gnu.org/software/ncurses/
+  license: MIT
+  summary: System V Release 4.0 curses emulation library

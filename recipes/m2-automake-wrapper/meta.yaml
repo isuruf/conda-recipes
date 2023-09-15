@@ -1,0 +1,29 @@
+package:
+  name: m2-automake-wrapper
+  version: 20221207.1
+source:
+  - url: {{ msys2_pkg_url }}/automake-wrapper-20221207-1-any.pkg.tar.zst
+    sha256: 1670fccacb2b2fc1b0bea9458ee6d83ef03e6d06e27218203283cff5f35fd4e4
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bash
+    - m2-gawk
+    - m2-automake1.11
+    - m2-automake1.12
+    - m2-automake1.13
+    - m2-automake1.14
+    - m2-automake1.15
+    - m2-automake1.16
+
+about:
+  home: https://gitweb.gentoo.org/proj/autotools-wrappers.git/
+  license: GPL-2.0-only
+  summary: Wrapper scripts for automake commands

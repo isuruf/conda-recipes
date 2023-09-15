@@ -1,0 +1,24 @@
+package:
+  name: m2-tzcode
+  version: 2023c.1
+source:
+  - url: {{ msys2_pkg_url }}/tzcode-2023c-1-x86_64.pkg.tar.zst
+    sha256: 22cb95cd78a9553d525d1eba01934c675bce0a6be275e8ca1618ea1e2e90f79d
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-coreutils
+    - m2-gawk
+    - m2-sed
+
+about:
+  home: https://www.iana.org/time-zones
+  license: GPL
+  summary: Sources for time zone and daylight saving time data

@@ -1,0 +1,22 @@
+package:
+  name: m2-liblz4
+  version: 1.9.4.1
+source:
+  - url: {{ msys2_pkg_url }}/liblz4-1.9.4-1-x86_64.pkg.tar.zst
+    sha256: 0d77c9cb778052603b48091a6ded48134640b95f313ec444673f087795c97800
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://lz4.github.io/lz4/
+  license: LGPL
+  summary: Very fast lossless compression algorithm

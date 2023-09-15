@@ -1,0 +1,23 @@
+package:
+  name: m2-libintl
+  version: 0.22.1
+source:
+  - url: {{ msys2_pkg_url }}/libintl-0.22-1-x86_64.pkg.tar.zst
+    sha256: 9f9889c69bbf69d96c9e4f512e3196c267589b098a0f43f8c22ed847ed3153cc
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libiconv
+
+about:
+  home: https://www.gnu.org/software/gettext/
+  license: GPL
+  summary: GNU Internationalization runtime library

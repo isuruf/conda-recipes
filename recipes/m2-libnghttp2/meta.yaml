@@ -1,0 +1,22 @@
+package:
+  name: m2-libnghttp2
+  version: 1.56.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libnghttp2-1.56.0-1-x86_64.pkg.tar.zst
+    sha256: 1bc0a321d9e7888d4fc7b644bb2433ba58c21c2ec1b88e05801181fa7123db5b
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: https://nghttp2.org/
+  license: MIT
+  summary: Framing layer of HTTP/2 is implemented as a reusable C library (runtime)

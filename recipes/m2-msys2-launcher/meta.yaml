@@ -1,0 +1,22 @@
+package:
+  name: m2-msys2-launcher
+  version: 1.5.1
+source:
+  - url: {{ msys2_pkg_url }}/msys2-launcher-1.5-1-x86_64.pkg.tar.zst
+    sha256: 39f9dc679ffb3e514ed1ba9c38cc32c20c8f2d45fef3c0c6b73f6010e656f775
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-mintty>=1~2.2.1
+
+about:
+  home: 
+  license: MIT
+  summary: Helper for launching MSYS2 shells

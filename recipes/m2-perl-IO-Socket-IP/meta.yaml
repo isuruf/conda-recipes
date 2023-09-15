@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-IO-Socket-IP
+  version: 0.41.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-IO-Socket-IP-0.41-2-any.pkg.tar.zst
+    sha256: c908185cf19b8f836e960f97dc7cde790df073653061692bf173b373a26eb882
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/release/IO-Socket-IP
+  license: PerlArtistic
+  summary: Family-neutral IP socket supporting both IPv4 and IPv6

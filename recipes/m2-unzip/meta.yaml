@@ -1,0 +1,23 @@
+package:
+  name: m2-unzip
+  version: 6.0.2
+source:
+  - url: {{ msys2_pkg_url }}/unzip-6.0-2-x86_64.pkg.tar.xz
+    sha256: 8594ccda17711c5fad21ebb0e09ce37452cdf78803ca0b7ffbab1bdae1aa170c
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libbz2
+    - m2-bash
+
+about:
+  home: http://www.info-zip.org/
+  license: custom
+  summary: Unpacks .zip archives such as those made by PKZIP

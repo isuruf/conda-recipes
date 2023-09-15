@@ -1,0 +1,23 @@
+package:
+  name: m2-perl-WWW-RobotRules
+  version: 6.02.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-WWW-RobotRules-6.02-2-any.pkg.tar.xz
+    sha256: 740d79af6618e8cb82bc22f2b913abefa14a40360b4e0e40d35522048146d366
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+    - m2-perl-URI
+
+about:
+  home: https://metacpan.org/release/WWW-RobotRules
+  license: PerlArtistic
+  summary: Database of robots.txt-derived permissions

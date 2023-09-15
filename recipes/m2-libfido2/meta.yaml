@@ -1,0 +1,23 @@
+package:
+  name: m2-libfido2
+  version: 1.13.0.1
+source:
+  - url: {{ msys2_pkg_url }}/libfido2-1.13.0-1-x86_64.pkg.tar.zst
+    sha256: 78e54a345872f025f54d76ef408dfffd08fbd30c2f5f269eadd546eb6afebfe1
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libcbor
+    - m2-openssl
+
+about:
+  home: https://developers.yubico.com/libfido2/
+  license: BSD-2-Clause
+  summary: Library functionality for FIDO 2.0, including communication with a device over USB

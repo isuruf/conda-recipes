@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-Net-SSLeay
+  version: 1.92.5
+source:
+  - url: {{ msys2_pkg_url }}/perl-Net-SSLeay-1.92-5-x86_64.pkg.tar.zst
+    sha256: 88dfdaa94fe06890928fb7c764d851dc43683dda510d7cf0d744b3ffda6e1ae4
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-openssl
+
+about:
+  home: https://metacpan.org/dist/Net-SSLeay/
+  license: custom:BSD
+  summary: Perl extension for using OpenSSL

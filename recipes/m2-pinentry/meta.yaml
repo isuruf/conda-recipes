@@ -1,0 +1,24 @@
+package:
+  name: m2-pinentry
+  version: 1.2.1.1
+source:
+  - url: {{ msys2_pkg_url }}/pinentry-1.2.1-1-x86_64.pkg.tar.zst
+    sha256: 6a64f1b1afce4ba4d4f70bf2350699ae880a511dee71a25390540df111a48554
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ncurses
+    - m2-libassuan
+    - m2-libgpg-error
+
+about:
+  home: https://gnupg.org/related_software/pinentry/
+  license: GPL
+  summary: A collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol

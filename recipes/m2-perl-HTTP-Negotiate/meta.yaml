@@ -1,0 +1,23 @@
+package:
+  name: m2-perl-HTTP-Negotiate
+  version: 6.01.3
+source:
+  - url: {{ msys2_pkg_url }}/perl-HTTP-Negotiate-6.01-3-any.pkg.tar.zst
+    sha256: 7d436cce8fa8438b718e45abf4e9f529995c302c81893e1cbe8660bf2a15d400
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl>=5.8.8
+    - m2-perl-HTTP-Message
+
+about:
+  home: https://metacpan.org/dist/HTTP-Negotiate
+  license: PerlArtistic
+  summary: choose a variant to serve

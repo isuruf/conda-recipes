@@ -1,0 +1,31 @@
+package:
+  name: m2-wget
+  version: 1.21.4.1
+source:
+  - url: {{ msys2_pkg_url }}/wget-1.21.4-1-x86_64.pkg.tar.zst
+    sha256: 6986c9c38eadaab6ff452785e205eba96e7599ea204791e8b2741e6937e31f18
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libiconv
+    - m2-libidn2
+    - m2-libintl
+    - m2-libgpgme
+    - m2-libpcre2_8
+    - m2-libpsl
+    - m2-libuuid
+    - m2-libgnutls
+    - m2-zlib
+
+about:
+  home: https://www.gnu.org/software/wget/
+  license: GPL3
+  summary: A network utility to retrieve files from the Web

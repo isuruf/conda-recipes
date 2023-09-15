@@ -1,0 +1,25 @@
+package:
+  name: m2-gawk
+  version: 5.2.2.1
+source:
+  - url: {{ msys2_pkg_url }}/gawk-5.2.2-1-x86_64.pkg.tar.zst
+    sha256: 365dba5a85fd5f962592fbb51c08cec938a7f754be6d9e27ec13547e58bf90f5
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-sh
+    - m2-mpfr
+    - m2-libintl
+    - m2-libreadline
+
+about:
+  home: https://www.gnu.org/software/gawk/
+  license: GPL
+  summary: GNU version of awk

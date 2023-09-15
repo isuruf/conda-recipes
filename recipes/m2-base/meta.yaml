@@ -1,0 +1,52 @@
+package:
+  name: m2-base
+  version: 2022.06.1
+source:
+  - url: {{ msys2_pkg_url }}/base-2022.06-1-any.pkg.tar.zst
+    sha256: 1501b0f9e8859c4cee080cf89ea07dc16bcc5cd490383484bbff861ed88c3f4f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bash
+    - m2-bash-completion
+    - m2-bsdtar
+    - m2-bzip2
+    - m2-coreutils
+    - m2-curl
+    - m2-dash
+    - m2-file
+    - m2-filesystem
+    - m2-findutils
+    - m2-gawk
+    - m2-getent
+    - m2-grep
+    - m2-gzip
+    - m2-inetutils
+    - m2-info
+    - m2-less
+    - m2-mintty
+    - m2-msys2-keyring
+    - m2-msys2-launcher
+    - m2-msys2-runtime
+    - m2-nano
+    - m2-rebase
+    - m2-sed
+    - m2-tar
+    - m2-time
+    - m2-tzcode
+    - m2-util-linux
+    - m2-wget
+    - m2-which
+    - m2-zstd
+
+about:
+  home: https://www.msys2.org
+  license: GPL
+  summary: Minimal package set to define a basic MSYS2 installation

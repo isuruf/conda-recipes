@@ -1,0 +1,22 @@
+package:
+  name: m2-libsqlite
+  version: 3.42.0.2
+source:
+  - url: {{ msys2_pkg_url }}/libsqlite-3.42.0-2-x86_64.pkg.tar.zst
+    sha256: dbd7a3c31b0a842370f76a1aa8017f9960391020ac0fcc2ad54235580c0b5567
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://www.sqlite.org/
+  license: PublicDomain
+  summary: Sqlite3 library

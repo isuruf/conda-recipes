@@ -1,0 +1,22 @@
+package:
+  name: m2-libbz2
+  version: 1.0.8.4
+source:
+  - url: {{ msys2_pkg_url }}/libbz2-1.0.8-4-x86_64.pkg.tar.zst
+    sha256: 89fb0e1478b22b80effda55ab4ae7549388d01245d3841a096d8a2d63236c2a1
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+
+about:
+  home: http://www.bzip.org
+  license: custom
+  summary: A high-quality data compression program

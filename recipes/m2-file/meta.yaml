@@ -1,0 +1,26 @@
+package:
+  name: m2-file
+  version: 5.45.1
+source:
+  - url: {{ msys2_pkg_url }}/file-5.45-1-x86_64.pkg.tar.zst
+    sha256: d42a01f04f668bd8de0848930c34b09fcfd5fd778c1d4c36850fc536893896b9
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-zlib
+    - m2-libbz2
+    - m2-liblzma
+    - m2-libzstd
+
+about:
+  home: https://www.darwinsys.com/file/
+  license: custom
+  summary: File type identification utility

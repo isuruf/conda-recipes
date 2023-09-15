@@ -1,0 +1,27 @@
+package:
+  name: m2-ca-certificates
+  version: 20230311.1
+source:
+  - url: {{ msys2_pkg_url }}/ca-certificates-20230311-1-any.pkg.tar.zst
+    sha256: b9a2429e34d21410bfcdb18323555e28f1a5f8804847e22e9c193258741e2f55
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-bash
+    - m2-openssl
+    - m2-findutils
+    - m2-coreutils
+    - m2-sed
+    - m2-p11-kit
+
+about:
+  home: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+  license: MPL
+  summary: Common CA certificates

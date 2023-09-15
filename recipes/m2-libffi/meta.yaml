@@ -1,0 +1,22 @@
+package:
+  name: m2-libffi
+  version: 3.4.4.1
+source:
+  - url: {{ msys2_pkg_url }}/libffi-3.4.4-1-x86_64.pkg.tar.zst
+    sha256: 95159256955fa8e3d6835441f16385dec3cb78200e5b8b6f511b48c6c26769f3
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+
+
+about:
+  home: https://sourceware.org/libffi/
+  license: MIT
+  summary: Portable, high level programming interface to various calling conventions

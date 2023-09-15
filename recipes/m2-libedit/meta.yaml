@@ -1,0 +1,23 @@
+package:
+  name: m2-libedit
+  version: 20221030_3.1.1
+source:
+  - url: {{ msys2_pkg_url }}/libedit-20221030_3.1-1-x86_64.pkg.tar.zst
+    sha256: 2d4de690a0a487568f94a810669c25940c6f050b7e81f22fdc3855f91929313f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-ncurses
+    - m2-sh
+
+about:
+  home: https://www.thrysoee.dk/editline/
+  license: BSD
+  summary: Libedit is an autotool- and libtoolized port of the NetBSD Editline library.

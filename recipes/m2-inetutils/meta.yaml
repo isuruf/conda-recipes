@@ -1,0 +1,25 @@
+package:
+  name: m2-inetutils
+  version: 2.4.2
+source:
+  - url: {{ msys2_pkg_url }}/inetutils-2.4-2-x86_64.pkg.tar.zst
+    sha256: 0935db37d7466e79479693b7d702967f05951bd910ff532bbda8e5c047923730
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libintl
+    - m2-libreadline
+    - m2-ncurses
+
+about:
+  home: https://www.gnu.org/software/inetutils/
+  license: GPL-3.0-or-later
+  summary: A collection of common network programs.

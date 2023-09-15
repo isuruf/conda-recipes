@@ -1,0 +1,24 @@
+package:
+  name: m2-util-linux
+  version: 2.35.2.4
+source:
+  - url: {{ msys2_pkg_url }}/util-linux-2.35.2-4-x86_64.pkg.tar.zst
+    sha256: 157a3eac0bd9705b6e2225c43db1c6ef6e6cb703f0a916910bb48e0744d43fc0
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-coreutils
+    - m2-libutil-linux
+    - m2-libiconv
+
+about:
+  home: https://www.kernel.org/pub/linux/utils/util-linux/
+  license: GPL3
+  summary: Collection of basic system utilities

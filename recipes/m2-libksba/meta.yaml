@@ -1,0 +1,23 @@
+package:
+  name: m2-libksba
+  version: 1.6.4.1
+source:
+  - url: {{ msys2_pkg_url }}/libksba-1.6.4-1-x86_64.pkg.tar.zst
+    sha256: df28acc90b48abb0923729a2fb0e4d1f9559a8630c1e2a8c2e68d74427af0099
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-gcc-libs
+    - m2-libgpg-error
+
+about:
+  home: https://www.gnupg.org/related_software/libksba/
+  license: LGPL-3.0-or-later OR GPL-2.0-or-later
+  summary: A CMS and X.509 access library

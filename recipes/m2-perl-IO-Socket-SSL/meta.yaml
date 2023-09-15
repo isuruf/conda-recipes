@@ -1,0 +1,24 @@
+package:
+  name: m2-perl-IO-Socket-SSL
+  version: 2.083.1
+source:
+  - url: {{ msys2_pkg_url }}/perl-IO-Socket-SSL-2.083-1-any.pkg.tar.zst
+    sha256: 3991a72204bbf5d72a240fdbf91245526fc5d96eda168c9d9888a1dd80f7bd3f
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl-Net-SSLeay
+    - m2-perl
+    - m2-perl-URI
+
+about:
+  home: https://metacpan.org/release/IO-Socket-SSL
+  license: GPL
+  summary: Nearly transparent SSL encapsulation for IO::Socket::INET

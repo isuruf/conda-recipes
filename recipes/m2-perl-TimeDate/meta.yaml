@@ -1,0 +1,22 @@
+package:
+  name: m2-perl-TimeDate
+  version: 2.33.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-TimeDate-2.33-2-any.pkg.tar.zst
+    sha256: 4cbeab8e248a67f21ff982495678723da21adf7bb9ad51d141f09c03472baeda
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-perl
+
+about:
+  home: https://metacpan.org/dist/TimeDate
+  license: PerlArtistic
+  summary: Date formating subroutines

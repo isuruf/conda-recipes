@@ -1,0 +1,26 @@
+package:
+  name: m2-heimdal-libs
+  version: 7.8.0.4
+source:
+  - url: {{ msys2_pkg_url }}/heimdal-libs-7.8.0-4-x86_64.pkg.tar.zst
+    sha256: f64082ed9138f36900dcdb02b4287053c9e3d85edaf6fc3f3b81a14d45afe6b5
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libdb
+    - m2-libxcrypt
+    - m2-libedit
+    - m2-libsqlite
+    - m2-libopenssl
+
+about:
+  home: https://www.h5l.org/
+  license: custom
+  summary: Implementation of Kerberos V5 libraries

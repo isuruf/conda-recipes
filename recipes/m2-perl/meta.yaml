@@ -1,0 +1,26 @@
+package:
+  name: m2-perl
+  version: 5.36.1.2
+source:
+  - url: {{ msys2_pkg_url }}/perl-5.36.1-2-x86_64.pkg.tar.zst
+    sha256: b0405bbd93de93879ed16ec503d250cce5f670fc89deff15aad2f853dc2d9925
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-db
+    - m2-gdbm
+    - m2-libxcrypt
+    - m2-coreutils
+    - m2-sh
+
+about:
+  home: https://www.perl.org/
+  license: GPL
+  summary: A highly capable, feature-rich programming language

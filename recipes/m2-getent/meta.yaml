@@ -1,0 +1,22 @@
+package:
+  name: m2-getent
+  version: 2.18.90.4
+source:
+  - url: {{ msys2_pkg_url }}/getent-2.18.90-4-x86_64.pkg.tar.zst
+    sha256: 1fff5c3595395996f3e9df78597d870a972f8c9d5f7c4639dbe7be2971a01003
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libargp
+
+about:
+  home: https://www.gnu.org/software/libc/libc.html
+  license: LGPL
+  summary: Get entries from Name Service Switch libraries
