@@ -5,6 +5,7 @@ source:
   - url: {{ msys2_pkg_url }}/msys2-runtime-3.4.9-1-x86_64.pkg.tar.zst
     sha256: 6f720ee5cbdb3b862d5a4db100bcaa6faa4c10abb0572c4eecf22513d0ffb430
     folder: binary
+
   - url: {{ msys2_src_url }}/msys2-runtime-3.4.9-1.src.tar.zst
     sha256: 251fb77b6877ae0d2bc88ea4d50fc5cefc77ac1df96c2eb3e976b6de09174802
     folder: sources
