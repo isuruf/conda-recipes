@@ -22,3 +22,7 @@ about:
   home: https://www.iana.org/time-zones
   license: GPL
   summary: Sources for time zone and daylight saving time data
+
+extra:
+  recipe-maintainers:
+    - isuruf

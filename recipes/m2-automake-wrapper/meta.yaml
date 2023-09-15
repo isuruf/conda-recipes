@@ -27,3 +27,7 @@ about:
   home: https://gitweb.gentoo.org/proj/autotools-wrappers.git/
   license: GPL-2.0-only
   summary: Wrapper scripts for automake commands
+
+extra:
+  recipe-maintainers:
+    - isuruf

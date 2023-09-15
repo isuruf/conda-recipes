@@ -22,3 +22,7 @@ about:
   home: https://metacpan.org/release/MIME-tools
   license: GPL
   summary: Parses streams to create MIME entities
+
+extra:
+  recipe-maintainers:
+    - isuruf

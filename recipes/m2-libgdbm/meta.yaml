@@ -24,3 +24,7 @@ about:
   home: https://www.gnu.org/software/gdbm/gdbm.html
   license: GPL3
   summary: GNU database library
+
+extra:
+  recipe-maintainers:
+    - isuruf

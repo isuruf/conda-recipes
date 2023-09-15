@@ -20,3 +20,7 @@ about:
   home: {{ url }}
   license: {{ license }}
   summary: {{ summary }}
+
+extra:
+  recipe-maintainers:
+    - isuruf

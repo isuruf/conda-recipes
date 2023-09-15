@@ -21,3 +21,7 @@ about:
   home: https://www.gnu.org/software/gzip/
   license: GPL3
   summary: GNU compression utility
+
+extra:
+  recipe-maintainers:
+    - isuruf

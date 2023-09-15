@@ -21,3 +21,7 @@ about:
   home: https://metacpan.org/dist/File-Listing
   license: Artistic-1.0-Perl
   summary: parse directory listing
+
+extra:
+  recipe-maintainers:
+    - isuruf

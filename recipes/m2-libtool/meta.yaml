@@ -22,3 +22,7 @@ about:
   home: https://www.gnu.org/software/libtool/
   license: GPL-2.0-or-later
   summary: A generic library support script
+
+extra:
+  recipe-maintainers:
+    - isuruf

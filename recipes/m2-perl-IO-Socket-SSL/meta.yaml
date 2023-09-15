@@ -22,3 +22,7 @@ about:
   home: https://metacpan.org/release/IO-Socket-SSL
   license: GPL
   summary: Nearly transparent SSL encapsulation for IO::Socket::INET
+
+extra:
+  recipe-maintainers:
+    - isuruf

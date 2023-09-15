@@ -21,3 +21,7 @@ about:
   home: http://www.info-zip.org/
   license: custom
   summary: Unpacks .zip archives such as those made by PKZIP
+
+extra:
+  recipe-maintainers:
+    - isuruf

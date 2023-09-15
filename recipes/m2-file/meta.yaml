@@ -24,3 +24,7 @@ about:
   home: https://www.darwinsys.com/file/
   license: custom
   summary: File type identification utility
+
+extra:
+  recipe-maintainers:
+    - isuruf

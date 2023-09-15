@@ -22,3 +22,7 @@ about:
   home: https://www.gnu.org/software/tar/tar.html
   license: GPL3
   summary: Utility used to store, backup, and transport files
+
+extra:
+  recipe-maintainers:
+    - isuruf

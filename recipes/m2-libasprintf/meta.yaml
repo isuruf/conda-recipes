@@ -20,3 +20,7 @@ about:
   home: https://www.gnu.org/software/gettext/
   license: GPL
   summary: C-style formatted output in C++ (runtime)
+
+extra:
+  recipe-maintainers:
+    - isuruf

@@ -30,3 +30,7 @@ about:
   home: https://curl.haxx.se
   license: MIT
   summary: Multi-protocol file transfer library (runtime)
+
+extra:
+  recipe-maintainers:
+    - isuruf

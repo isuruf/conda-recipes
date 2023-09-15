@@ -21,3 +21,7 @@ about:
   home: https://gnupg.org/related_software/libassuan
   license: GPL
   summary: A IPC library used by some GnuPG related software
+
+extra:
+  recipe-maintainers:
+    - isuruf

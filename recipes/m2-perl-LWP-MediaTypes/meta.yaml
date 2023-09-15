@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/release/LWP-MediaTypes
   license: PerlArtistic
   summary: Guess the media type of a file or a URL
+
+extra:
+  recipe-maintainers:
+    - isuruf

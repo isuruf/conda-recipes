@@ -20,3 +20,7 @@ about:
   home: https://libexpat.github.io/
   license: MIT
   summary: An XML parser library
+
+extra:
+  recipe-maintainers:
+    - isuruf

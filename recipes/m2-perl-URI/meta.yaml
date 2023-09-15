@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/dist/URI
   license: PerlArtistic
   summary: Uniform Resource Identifiers (absolute and relative)
+
+extra:
+  recipe-maintainers:
+    - isuruf

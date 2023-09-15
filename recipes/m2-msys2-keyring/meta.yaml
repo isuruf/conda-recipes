@@ -20,3 +20,7 @@ about:
   home: https://github.com/msys2/MSYS2-keyring
   license: GPL
   summary: MSYS2 PGP keyring
+
+extra:
+  recipe-maintainers:
+    - isuruf

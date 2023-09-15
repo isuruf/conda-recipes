@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/dist/Net-SMTP-SSL
   license: GPL
   summary: SSL support for Net::SMTP
+
+extra:
+  recipe-maintainers:
+    - isuruf

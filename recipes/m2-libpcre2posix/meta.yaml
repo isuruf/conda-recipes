@@ -20,3 +20,7 @@ about:
   home: https://www.pcre.org/
   license: BSD
   summary: A library that implements Perl 5-style regular expressions
+
+extra:
+  recipe-maintainers:
+    - isuruf

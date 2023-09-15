@@ -21,3 +21,7 @@ about:
   home: https://www.thrysoee.dk/editline/
   license: BSD
   summary: Libedit is an autotool- and libtoolized port of the NetBSD Editline library.
+
+extra:
+  recipe-maintainers:
+    - isuruf

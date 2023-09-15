@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/release/Error
   license: PerlArtistic
   summary: Perl/CPAN Error module - Error/exception handling in an OO-ish way
+
+extra:
+  recipe-maintainers:
+    - isuruf

@@ -21,3 +21,7 @@ about:
   home: https://www.gnu.org/software/findutils
   license: GPL3
   summary: GNU utilities to locate files
+
+extra:
+  recipe-maintainers:
+    - isuruf

@@ -20,3 +20,7 @@ about:
   home: https://www.cygwin.com/
   license: custom
   summary: The Cygwin rebase distribution contains four utilities, rebase, rebaseall, peflags, and peflagsall
+
+extra:
+  recipe-maintainers:
+    - isuruf

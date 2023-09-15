@@ -21,3 +21,7 @@ about:
   home: https://developers.yubico.com/libfido2/
   license: BSD-2-Clause
   summary: Library functionality for FIDO 2.0, including communication with a device over USB
+
+extra:
+  recipe-maintainers:
+    - isuruf

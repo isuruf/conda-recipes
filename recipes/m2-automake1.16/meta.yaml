@@ -21,3 +21,7 @@ about:
   home: https://www.gnu.org/software/automake
   license: GPL
   summary: A GNU tool for automatically creating Makefiles
+
+extra:
+  recipe-maintainers:
+    - isuruf

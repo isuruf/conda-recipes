@@ -26,3 +26,7 @@ about:
   home: https://metacpan.org/release/HTTP-Message
   license: PerlArtistic
   summary: HTTP style messages
+
+extra:
+  recipe-maintainers:
+    - isuruf

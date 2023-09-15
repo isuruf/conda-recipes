@@ -35,3 +35,7 @@ about:
   home: https://gnupg.org/
   license: GPL
   summary: Complete and free implementation of the OpenPGP standard
+
+extra:
+  recipe-maintainers:
+    - isuruf

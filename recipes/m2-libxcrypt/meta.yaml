@@ -20,3 +20,7 @@ about:
   home: https://github.com/besser82/libxcrypt/
   license: LGPL-2.1-or-later
   summary: Modern library for one-way hashing of passwords
+
+extra:
+  recipe-maintainers:
+    - isuruf

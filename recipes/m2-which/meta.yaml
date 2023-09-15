@@ -20,3 +20,7 @@ about:
   home: https://savannah.gnu.org/projects/which/
   license: GPL3
   summary: A utility to show the full path of commands
+
+extra:
+  recipe-maintainers:
+    - isuruf

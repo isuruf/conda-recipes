@@ -21,3 +21,7 @@ about:
   home: https://www.gnu.org/software/libiconv/
   license: LGPL
   summary: Libiconv is a conversion library
+
+extra:
+  recipe-maintainers:
+    - isuruf

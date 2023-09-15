@@ -25,3 +25,7 @@ about:
   home: https://www.gnu.org/software/autoconf
   license: GPL2
   summary: A GNU tool for automatically configuring source code
+
+extra:
+  recipe-maintainers:
+    - isuruf

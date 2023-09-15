@@ -22,3 +22,7 @@ about:
   home: https://www.gnu.org/software/texinfo/
   license: GPL-3.0-or-later
   summary: Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file
+
+extra:
+  recipe-maintainers:
+    - isuruf

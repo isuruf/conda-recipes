@@ -20,3 +20,7 @@ about:
   home: https://www.gnu.org/directory/time.html
   license: GPL
   summary: Utility for monitoring a program's use of system resources
+
+extra:
+  recipe-maintainers:
+    - isuruf

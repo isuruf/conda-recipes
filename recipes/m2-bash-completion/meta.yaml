@@ -20,3 +20,7 @@ about:
   home: https://github.com/scop/bash-completion
   license: GPL
   summary: Programmable completion for the bash shell
+
+extra:
+  recipe-maintainers:
+    - isuruf

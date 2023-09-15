@@ -33,3 +33,7 @@ about:
   home: https://metacpan.org/dist/libwww-perl
   license: Artistic-1.0-Perl
   summary: The World-Wide Web library for Perl
+
+extra:
+  recipe-maintainers:
+    - isuruf

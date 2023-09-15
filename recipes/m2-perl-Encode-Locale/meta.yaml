@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/dist/Encode-Locale
   license: PerlArtistic
   summary: Determine the locale encoding
+
+extra:
+  recipe-maintainers:
+    - isuruf

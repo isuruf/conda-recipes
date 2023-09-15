@@ -20,3 +20,7 @@ about:
   home: https://lz4.github.io/lz4/
   license: LGPL
   summary: Very fast lossless compression algorithm
+
+extra:
+  recipe-maintainers:
+    - isuruf

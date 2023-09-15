@@ -23,3 +23,7 @@ about:
   home: https://metacpan.org/dist/HTML-Parser
   license: Artistic-1.0-Perl
   summary: Perl HTML parser class
+
+extra:
+  recipe-maintainers:
+    - isuruf

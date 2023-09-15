@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/dist/Authen-SASL
   license: GPL
   summary: Perl/CPAN Module Authen::SASL : SASL authentication framework
+
+extra:
+  recipe-maintainers:
+    - isuruf

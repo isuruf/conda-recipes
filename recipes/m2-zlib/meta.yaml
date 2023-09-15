@@ -20,3 +20,7 @@ about:
   home: https://www.zlib.net/
   license: custom
   summary: Compression library implementing the deflate compression method found in gzip and PKZIP
+
+extra:
+  recipe-maintainers:
+    - isuruf

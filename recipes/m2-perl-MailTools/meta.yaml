@@ -20,3 +20,7 @@ about:
   home: https://metacpan.org/release/MailTools
   license: PerlArtistic
   summary: Various e-mail related modules
+
+extra:
+  recipe-maintainers:
+    - isuruf

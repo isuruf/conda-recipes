@@ -22,3 +22,7 @@ about:
   home: https://libssh2.org/
   license: BSD
   summary: Multi-protocol file transfer library (runtime)
+
+extra:
+  recipe-maintainers:
+    - isuruf

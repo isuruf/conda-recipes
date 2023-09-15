@@ -28,3 +28,7 @@ about:
   home: https://www.gnutls.org/
   license: GPL-3.0-or-later
   summary: A library which provides a secure layer over a reliable transport layer
+
+extra:
+  recipe-maintainers:
+    - isuruf

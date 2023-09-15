@@ -24,3 +24,7 @@ about:
   home: https://www.h5l.org/
   license: custom
   summary: Implementation of Kerberos V5 libraries
+
+extra:
+  recipe-maintainers:
+    - isuruf

@@ -22,3 +22,7 @@ about:
   home: https://tukaani.org/xz/
   license: GPL
   summary: Library for XZ and LZMA compressed files
+
+extra:
+  recipe-maintainers:
+    - isuruf

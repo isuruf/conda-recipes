@@ -21,3 +21,7 @@ about:
   home: https://www.kernel.org/pub/linux/utils/util-linux/
   license: GPL3
   summary: Block device ID and Universally Unique ID libraries
+
+extra:
+  recipe-maintainers:
+    - isuruf

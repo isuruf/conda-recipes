@@ -22,3 +22,7 @@ about:
   home: https://gnupg.org/related_software/gpgme/
   license: LGPL
   summary: A C wrapper library for GnuPG
+
+extra:
+  recipe-maintainers:
+    - isuruf

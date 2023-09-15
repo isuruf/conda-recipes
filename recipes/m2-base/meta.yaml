@@ -50,3 +50,7 @@ about:
   home: https://www.msys2.org
   license: GPL
   summary: Minimal package set to define a basic MSYS2 installation
+
+extra:
+  recipe-maintainers:
+    - isuruf

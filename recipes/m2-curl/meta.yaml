@@ -26,3 +26,7 @@ about:
   home: https://curl.haxx.se
   license: MIT
   summary: Multi-protocol file transfer utility
+
+extra:
+  recipe-maintainers:
+    - isuruf

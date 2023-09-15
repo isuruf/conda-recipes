@@ -21,3 +21,7 @@ about:
   home: https://gitlab.gnome.org/GNOME/libxslt/-/wikis/
   license: custom
   summary: XML stylesheet transformation library
+
+extra:
+  recipe-maintainers:
+    - isuruf

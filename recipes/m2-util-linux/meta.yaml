@@ -22,3 +22,7 @@ about:
   home: https://www.kernel.org/pub/linux/utils/util-linux/
   license: GPL3
   summary: Collection of basic system utilities
+
+extra:
+  recipe-maintainers:
+    - isuruf

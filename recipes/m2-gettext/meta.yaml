@@ -22,3 +22,7 @@ about:
   home: https://www.gnu.org/software/gettext/
   license: GPL
   summary: GNU internationalization library
+
+extra:
+  recipe-maintainers:
+    - isuruf

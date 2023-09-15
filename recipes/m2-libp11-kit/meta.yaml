@@ -22,3 +22,7 @@ about:
   home: https://p11-glue.freedesktop.org/p11-kit.html
   license: BSD
   summary: Library to work with PKCS#11 modules
+
+extra:
+  recipe-maintainers:
+    - isuruf
