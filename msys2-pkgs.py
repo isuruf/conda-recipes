@@ -62,7 +62,7 @@ while to_process:
             to_process.add(dep)
     seen[pkg] = depends, spdx, desc, url
 
-with open("template/meta.yaml") as f:
+with open("m2-template/meta.yaml") as f:
     template = f.read()
 
 for pkg, (depends, spdx, desc, url) in seen.items():
@@ -85,5 +85,5 @@ for pkg, (depends, spdx, desc, url) in seen.items():
         meta = meta.replace(f"{{{{ {k} }}}}", v)
     with open(f"recipes/m2-{pkg}/meta.yaml", "w") as f:
         f.write(meta)
-    shutil.copy("template/build.sh", f"recipes/m2-{pkg}/build.sh")
-    shutil.copy("template/bld.bat", f"recipes/m2-{pkg}/bld.bat")
+    shutil.copy("m2-template/build.sh", f"recipes/m2-{pkg}/build.sh")
+    shutil.copy("m2-template/bld.bat", f"recipes/m2-{pkg}/bld.bat")
