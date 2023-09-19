@@ -1,0 +1,27 @@
+package:
+  name: m2-pkg-config
+  version: 0.29.2.4
+source:
+  - url: {{ msys2_pkg_url }}/pkg-config-0.29.2-4-x86_64.pkg.tar.zst
+    sha256: b78e685dfc5e428678dfabb80b707be60a5cd144a3e836000c534f05c8fccced
+    folder: binary
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  host:
+    - m2-conda-epoch
+  run:
+    - m2-libiconv
+
+about:
+  home: https://www.freedesktop.org/wiki/Software/pkg-config/
+  license: GPL
+  summary: |
+    A system for managing library compile/link flags
+
+extra:
+  recipe-maintainers:
+    - isuruf

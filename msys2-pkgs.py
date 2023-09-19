@@ -4,11 +4,11 @@ import subprocess
 import os
 import shutil
 
-index_url = 'https://repo.msys2.org/msys/x86_64/'
+index_url = 'https://github.com/conda-forge/msys2-recipes/releases/download/20230914/'
 
 to_process = set(["git", "automake-wrapper", "make", "sed", "libtool", "autoconf",
     "findutils", "m4", "bash", "texinfo", "p7zip", "curl", "base", "tar", "zip",
-    "unzip", "diffutils", "patch", "patchutils"])
+    "unzip", "diffutils", "patch", "patchutils", "texinfo-tex", "pkg-config"])
 
 provides = {"sh": "bash", "libuuid": "libutil-linux", "awk": "gawk",
         "perl-IO-stringy": "perl-IO-Stringy"}
@@ -16,7 +16,7 @@ provides = {"sh": "bash", "libuuid": "libutil-linux", "awk": "gawk",
 seen = {}
 
 def get_pkgs():
-    directory_listing = requests.get(index_url).text
+    directory_listing = requests.get(index_url + 'index.html').text
     s = BeautifulSoup(directory_listing, 'html.parser')
     full_names = [node.get('href') for node in s.find_all('a') if node.get('href').endswith((".tar.zst", "tar.xz"))]
     # format: msy2-w32api-headers-10.0.0.r16.g49a56d453-1-x86_64.pkg.tar.zst
