@@ -1,0 +1,26 @@
+package:
+  name: {{ name }}
+  version: {{ version }}
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/{{ tarname }}
+    sha256: {{ sha256 }}
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+{{ depends }}
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: {{ url }}
+  license: {{ license }}
+  summary: |
+    {{ summary }}
+
+extra:
+  recipe-maintainers:
+    - isuruf
