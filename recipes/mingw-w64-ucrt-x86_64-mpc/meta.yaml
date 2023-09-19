@@ -1,0 +1,27 @@
+package:
+  name: mingw-w64-ucrt-x86_64-mpc
+  version: 1.3.1.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-mpc-1.3.1-2-any.pkg.tar.zst
+    sha256: 3a464e20548ad82f18000cba25060e71ab852458d61e0546a5cd8804e9b322e5
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-gmp
+    - mingw-w64-ucrt-x86_64-mpfr
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: http://www.multiprecision.org
+  license: LGPL
+  summary: |
+    Multiple precision complex arithmetic library (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

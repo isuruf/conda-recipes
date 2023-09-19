@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-zstd
+  version: 1.5.5.1
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-zstd-1.5.5-1-any.pkg.tar.zst
+    sha256: 6625552b940eeabe6b04af0ee24033d3610d96c5435f4780e7e0263a8a9a4a5d
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-gcc-libs
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://facebook.github.io/zstd/
+  license: BSD
+  summary: |
+    Zstandard - Fast real-time compression algorithm (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

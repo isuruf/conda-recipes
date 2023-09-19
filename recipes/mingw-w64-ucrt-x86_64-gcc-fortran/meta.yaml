@@ -1,0 +1,27 @@
+package:
+  name: mingw-w64-ucrt-x86_64-gcc-fortran
+  version: 13.2.0.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-gcc-fortran-13.2.0-2-any.pkg.tar.zst
+    sha256: 2ae0bea7b925c20f56f9e3e755514a72ca3a51758a80192a823ad9dc9524b9ea
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-gcc =13.2.0-2
+    - mingw-w64-ucrt-x86_64-gcc-libgfortran =13.2.0-2
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://gcc.gnu.org
+  license: GPL
+  summary: |
+    GNU Compiler Collection (Fortran) for MinGW-w64
+
+extra:
+  recipe-maintainers:
+    - isuruf

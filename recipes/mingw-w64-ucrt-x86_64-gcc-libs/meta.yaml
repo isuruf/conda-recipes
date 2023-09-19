@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-gcc-libs
+  version: 13.2.0.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-gcc-libs-13.2.0-2-any.pkg.tar.zst
+    sha256: fbc4bea0ec1492bf38050c8ca4a5b39ed3924a435f9f00a0a310d7573a027711
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-libwinpthread-git
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://gcc.gnu.org
+  license: GPL3+
+  summary: |
+    GNU Compiler Collection (libraries) for MinGW-w64
+
+extra:
+  recipe-maintainers:
+    - isuruf

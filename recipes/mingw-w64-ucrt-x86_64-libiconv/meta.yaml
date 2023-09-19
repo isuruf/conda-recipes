@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-libiconv
+  version: 1.17.3
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-libiconv-1.17-3-any.pkg.tar.zst
+    sha256: bef4ad5ab843e36b77e08d3ac8e55ea537501a15865d3d128eb92daaa064588c
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://www.gnu.org/software/libiconv/
+  license: LGPL-2.1-or-later
+  summary: |
+    Character encoding conversion library (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-windows-default-manifest
+  version: 6.4.4
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-windows-default-manifest-6.4-4-any.pkg.tar.zst
+    sha256: 6d1c9e2ab75aace04d30fb43974b24d5505bfd7872ca23fea773fc9ae70bd248
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://cygwin.com/
+  license: BSD
+  summary: |
+    Default Windows application manifest (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

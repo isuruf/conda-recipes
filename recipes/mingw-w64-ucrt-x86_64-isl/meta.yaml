@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-isl
+  version: 0.26.1
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-isl-0.26-1-any.pkg.tar.zst
+    sha256: aa5b448b898962301f33cef8168c014998f562673fab189e82df318fd3fbba78
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-gmp
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://libisl.sourceforge.io/
+  license: MIT
+  summary: |
+    Library for manipulating sets and relations of integer points bounded by linear constraints (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

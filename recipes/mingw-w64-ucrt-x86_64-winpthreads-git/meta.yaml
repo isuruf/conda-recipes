@@ -1,0 +1,27 @@
+package:
+  name: mingw-w64-ucrt-x86_64-winpthreads-git
+  version: 9.0.0.6454.b4445ee52.1
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-winpthreads-git-9.0.0.6454.b4445ee52-1-any.pkg.tar.zst
+    sha256: 356be3d9aab2fa5877ca1b748abd503a69ba2d5d0d404ca7be5719b5517a7cd1
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-crt-git
+    - mingw-w64-ucrt-x86_64-libwinpthread-git =9.0.0.6454.b4445ee52
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://mingw-w64.sourceforge.io/
+  license: MIT
+  summary: |
+    MinGW-w64 winpthreads library
+
+extra:
+  recipe-maintainers:
+    - isuruf

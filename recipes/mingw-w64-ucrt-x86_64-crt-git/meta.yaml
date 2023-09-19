@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-crt-git
+  version: 9.0.0.6454.b4445ee52.1
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-crt-git-9.0.0.6454.b4445ee52-1-any.pkg.tar.zst
+    sha256: b20b8e3c87a43eea46548effe6277add333c40cc5303427e1cf6341e61b84436
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-headers-git
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://mingw-w64.sourceforge.io/
+  license: custom
+  summary: |
+    MinGW-w64 CRT for Windows
+
+extra:
+  recipe-maintainers:
+    - isuruf

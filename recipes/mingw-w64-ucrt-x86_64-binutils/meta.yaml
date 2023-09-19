@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-binutils
+  version: 2.41.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-binutils-2.41-2-any.pkg.tar.zst
+    sha256: 214d110e1ed06aada2e5eae73537e0ccb4c59d27a0fad2c93776154ad60eef48
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-zstd
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://www.gnu.org/software/binutils/
+  license: GPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-3.0-or-later AND LGPL-2.0-or-later
+  summary: |
+    A set of programs to assemble and manipulate binary and object files (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf

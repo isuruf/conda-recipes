@@ -1,0 +1,38 @@
+package:
+  name: mingw-w64-ucrt-x86_64-gcc
+  version: 13.2.0.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-gcc-13.2.0-2-any.pkg.tar.zst
+    sha256: 95fe07459dcabd4205ebe5f9e4faa5cb30da1cd5e839b9755fa3d14e36213efa
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-binutils
+    - mingw-w64-ucrt-x86_64-crt-git
+    - mingw-w64-ucrt-x86_64-headers-git
+    - mingw-w64-ucrt-x86_64-isl
+    - mingw-w64-ucrt-x86_64-libiconv
+    - mingw-w64-ucrt-x86_64-gmp
+    - mingw-w64-ucrt-x86_64-mpfr
+    - mingw-w64-ucrt-x86_64-mpc
+    - mingw-w64-ucrt-x86_64-gcc-libs =13.2.0-2
+    - mingw-w64-ucrt-x86_64-windows-default-manifest
+    - mingw-w64-ucrt-x86_64-winpthreads-git
+    - mingw-w64-ucrt-x86_64-zlib
+    - mingw-w64-ucrt-x86_64-zstd
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://gcc.gnu.org
+  license: GPL
+  summary: |
+    GNU Compiler Collection (C,C++,OpenMP) for MinGW-w64
+
+extra:
+  recipe-maintainers:
+    - isuruf

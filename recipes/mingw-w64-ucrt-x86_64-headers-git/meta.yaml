@@ -1,0 +1,26 @@
+package:
+  name: mingw-w64-ucrt-x86_64-headers-git
+  version: 9.0.0.6454.b4445ee52.1
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-headers-git-9.0.0.6454.b4445ee52-1-any.pkg.tar.zst
+    sha256: 90dadcaff0bd569c187264b2ed32231fe2ffb6c9b40123195e75726f812ed4c9
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: https://mingw-w64.sourceforge.io/
+  license: custom
+  summary: |
+    MinGW-w64 headers for Windows
+
+extra:
+  recipe-maintainers:
+    - isuruf

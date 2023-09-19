@@ -1,0 +1,27 @@
+package:
+  name: mingw-w64-ucrt-x86_64-mpfr
+  version: 4.2.1.2
+source:
+  - url: {{ m2w64_ucrt64_pkg_url }}/mingw-w64-ucrt-x86_64-mpfr-4.2.1-2-any.pkg.tar.zst
+    sha256: a1010772f8794aed2739da9f6304928e2ec9c9a1382d4eb4a24d9e3101bff59b
+    folder: binary
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - mingw-w64-ucrt-x86_64-gcc-libs
+    - mingw-w64-ucrt-x86_64-gmp
+  run_constrained:
+    - msys2-conda-epoch <0.0a0
+
+about:
+  home: 
+  license: LGPL-3.0-or-later
+  summary: |
+    Multiple-precision floating-point library (mingw-w64)
+
+extra:
+  recipe-maintainers:
+    - isuruf
