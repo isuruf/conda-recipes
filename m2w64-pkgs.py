@@ -8,13 +8,14 @@ index_url = 'https://repo.msys2.org/mingw/ucrt64/'
 
 pkg_prefix = "mingw-w64-ucrt-x86_64-"
 
-to_process = set([f"{pkg_prefix}gcc", f"{pkg_prefix}gcc-fortran"])
+to_process = set([f"{pkg_prefix}gcc", f"{pkg_prefix}gcc-fortran", f"{pkg_prefix}tools-git"])
 
 provides = {
   f"{pkg_prefix}winpthreads": f"{pkg_prefix}winpthreads-git",
   f"{pkg_prefix}crt": f"{pkg_prefix}crt-git",
   f"{pkg_prefix}headers": f"{pkg_prefix}headers-git",
   f"{pkg_prefix}libwinpthread": f"{pkg_prefix}libwinpthread-git",
+  f"{pkg_prefix}tools": f"{pkg_prefix}tools-git",
 }
 
 seen = {}
