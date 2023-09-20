@@ -1,0 +1,10 @@
+--- binary/etc/bash.bashrc     2023-09-20 02:52:26.392108213 -0500
++++ binary/etc/bash.bashrc     2023-09-20 02:53:33.713972519 -0500
+@@ -64,3 +64,6 @@
+ 
+ # Uncomment to use the terminal colours set in DIR_COLORS
+ # eval "$(dircolors -b /etc/DIR_COLORS)"
++
++# /bin is mapped to /usr/bin for some reason. Hack to fix this
++export PATH=${PATH/:\/bin:/:/bin:$(cygpath -u $(cygpath -w /)../)/Library/bin:}
+
