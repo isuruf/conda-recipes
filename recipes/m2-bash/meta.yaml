@@ -14,7 +14,7 @@ requirements:
   host:
     - m2-conda-epoch
   run:
-
+    - m2-filesystem
 
 about:
   home: https://www.gnu.org/software/bash/bash.html

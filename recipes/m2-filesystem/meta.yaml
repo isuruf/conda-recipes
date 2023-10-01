@@ -7,6 +7,7 @@ source:
     patches:
       - 0001-Remove-etc-post-install-07-pacman-key-post.patch
       - 0002-Use-Windows-users-temporary-directory-as-tmp.patch
+      - 0003-Fix-bin-PATH-issue.patch
     folder: binary
 
 build:
