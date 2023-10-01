@@ -44,6 +44,17 @@ def get_depends(pkg):
     subprocess.check_call(["tar", "-xf", basename, "--directory=cache/tmp"])
     with open("cache/tmp/.PKGINFO") as f:
         pkginfo = f.readlines()
+    pkgbase = get_info(pkginfo, "pkgbase")[0]
+    pkgver = get_info(pkginfo, "pkgver")[0]
+    src1 = f"https://repo.msys2.org/mingw/sources/{pkgbase}-{pkgver}.src.tar.zst"
+    src2 = f"https://repo.msys2.org/mingw/sources/{pkgbase}-{pkgver}.src.tar.gz"
+    if not os.path.exists('src-cache/' + os.path.basename(src1)) and \
+            not os.path.exists('src-cache/' + os.path.basename(src2)):
+        try:
+            subprocess.check_call(["wget", src1, "-O", 'src-cache/' + os.path.basename(src1)])
+        except subprocess.CalledProcessError:
+            subprocess.check_call(["wget", src2, "-O", 'src-cache/' + os.path.basename(src2)])
+
     depends = get_info(pkginfo, "depend")
     depends = [dep for dep in depends if not dep.startswith("pacman")]
     license_text = get_info(pkginfo, "license")[0]

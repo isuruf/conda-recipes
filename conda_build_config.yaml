@@ -2,5 +2,7 @@ msys2_src_url:
   - https://repo.msys2.org/msys/sources/
 msys2_pkg_url:
   - https://github.com/conda-forge/msys2-recipes/releases/download/20230914/
+m2w64_ucrt64_pkg_url:
+  - https://repo.msys2.org/mingw/ucrt64/
 target_platform:
   - win-64
